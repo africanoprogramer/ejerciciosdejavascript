@@ -1,10 +1,12 @@
+
+
 -------------------VARIABLES-------------------
 
-1.Create a variable called carName, assign the value Volvo to it.
-2.Create a variable called x, assign the value 50 to it.
-3. Muestra la suma de dos variables con getelmentby....
-4.Create a variable called z, assign x + y to it, and display the result in an alert box.
-5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30
+1.Create a variable called carName, assign the value Volvo to it. 1
+2.Create a variable called x, assign the value 50 to it. 1
+3. Muestra la suma de dos variables con getelmentby.... 1
+4.Create a variable called z, assign x + y to it, and display the result in an alert box. 1
+5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 1
 
 
 ----------------------OPERADORES-------------------
@@ -26,6 +28,10 @@ c) divide dos numeros con variables diferentes.
 d) Divide 10 by 2, and alert the result:
 e) Alert the remainder(el resto de cuandp 15 es divido entre 9) when 15 is divided by 9. 
 
+3.- Operadores de comparacion
+a) compara dos valores usando &&
+b) el mismo ejemplo pero despues retornando un valor
+
 
 ----------------------TEMPLATE STRING-----------------------------
 
@@ -37,6 +43,7 @@ e) Alert the remainder(el resto de cuandp 15 es divido entre 9) when 15 is divid
 
 - Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra 
 - una alerta con el resultado de la suma.
+
 - Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit.
 - Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10 igual 0.5
 - Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a.
