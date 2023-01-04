@@ -52,23 +52,46 @@ b) el mismo ejemplo pero despues retornando un valor 2
 - Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10 igual 0.5 2
 - Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a. 2
 
-
-
  */
 
 /**
-
-
+ * --------------------------------------CONDICIONALES-------------------------------
+ * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir.
+ * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 
+ * 3.- Hacer un ejercicio con switch
+ * 
  */
 
-let a = prompt();
+/**
+ * ---------------------------------------ARRAYZ----------------------------------------
+ * 1.-crea un array de tres frutas, anhade una fruta y se posiciona en la ultima posicion, otra fruta que se posicione en la primera posicion, cambia el valor del tercer array, elimina el primer array, elimina el ultimo array.
+ * 2.- En eeste desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo.
+ */
 
-a = [];
+/**
+ * --------------------------------------LOOPS------------------------------------------
+ * 1.-Cuenta los numeros hasta 10 for
+ * 2.- has funcion que salude a los estudiantes.
+ * 
+ 
+ */
 
-function tipoDato(a) {
-  return typeof a;
+let estudiantes = ['Francisco','Braulio','Bodien']
+
+estudiantes.push('Benjamin')
+
+function Saludar(estudiantes) {
+    return `Hola ${estudiantes}`
+    
 }
 
-console.log(tipoDato(a));
 
-document.getElementById("miDiv").innerHTML;
+
+for (let i = 0; i < estudiantes.length; i++) {
+
+
+    console.log(Saludar(estudiantes[i]))
+    
+    
+}
+
