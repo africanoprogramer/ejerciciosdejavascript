@@ -1,11 +1,11 @@
 /**
  * -------------------VARIABLES-------------------
 
-1.Create a variable called carName, assign the value Volvo to it. 3
-2.Create a variable called x, assign the value 50 to it. 3
-3. Muestra la suma de dos variables con getelmentby.... 3
-4.Create a variable called z, assign x + y to it, and display the result in an alert box. 3
-5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 3
+1.Create a variable called carName, assign the value Volvo to it. 4
+2.Create a variable called x, assign the value 50 to it. 4
+3. Muestra la suma de dos variables con getelmentby.... 4
+4.Create a variable called z, assign x + y to it, and display the result in an alert box. 4
+5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 4
  */
 
 /**
@@ -14,35 +14,35 @@
 
 1.-Operdores de asignacion: asigna un valor al operando de la izquierda basado en el valor del operando de la derecha
 
-a) crea una variable asignale un numero, despues llama de nuevo esta variable y sumale +=5 y muestra el resultao 3
-b) lo mismo con la resta; 3
-c) lo mismo con la multiplicacion; 3
-d) lo mismo con la division; 3
-e) lo mismo con el resto -> ten encuenta que el resto lo conseguimos al numero mas cercano hacia abajo del numero divido, nos muestra el resto de una division. 3
+a) crea una variable asignale un numero, despues llama de nuevo esta variable y sumale +=5 y muestra el resultao 4
+b) lo mismo con la resta; 4
+c) lo mismo con la multiplicacion; 4
+d) lo mismo con la division; 4
+e) lo mismo con el resto -> ten encuenta que el resto lo conseguimos al numero mas cercano hacia abajo del numero divido, nos muestra el resto de una division. 4
 
 
 2.- Operdores aritmeticos: toman valores numericos ya sean literales o variables como sus operandos y retornan un valor numerico unico
 
-a) crea una variable y asignale un valor numerico y despues restale con este operador -- y luego muestralo en una varibale y lo muestras; 3
-b) haslo mismo con la suma 3
-c) divide dos numeros con variables diferentes. 3
-d) Divide 10 by 2, and alert the result: 3
-e) Alert the remainder(el resto de cuandp 15 es divido entre 9) when 15 is divided by 9. 3
+a) crea una variable y asignale un valor numerico y despues restale con este operador -- y luego muestralo en una varibale y lo muestras; 4
+b) haslo mismo con la suma 4
+c) divide dos numeros con variables diferentes. 4
+d) Divide 10 by 2, and alert the result: 4
+e) Alert the remainder(el resto de cuandp 15 es divido entre 9) when 15 is divided by 9. 4
 
 3.- Operadores de comparacion 
-a) compara dos valores usando && 2
-b) el mismo ejemplo pero despues retornando un valor 3
+a) compara dos valores usando && 3
+b) el mismo ejemplo pero despues retornando un valor 4
 
 
 3.- Operaciones de comparacion 1
-son los que devuelven un resultado buleano. 1
-a) compara un texto si es igual al otro 1
-b) compara si un texto es  diferente a otro. 1
-c) compâra si un texto es diferente a otro comparando con el mismo tipo de dato 1
-d) compara si un numero es menor al otro 1
-e) compara si la dimencion de un texto es mayor al otro 1
-f) compara dos valores un verdadero y otro falso con ||, ten encuenta que este operador coge el valor verdadero a diferencia de && que returna falso si tana solo un valor es falso. 1
-g) Con el operador correcto devuelve el valor direfente al que imprimes (true or false) 1
+son los que devuelven un resultado buleano. 2
+a) compara un texto si es igual al otro 2
+b) compara si un texto es  diferente a otro. 2
+c) compâra si un texto es diferente a otro comparando con el mismo tipo de dato 2
+d) compara si un numero es menor al otro 2
+e) compara si la dimencion de un texto es mayor al otro 2
+f) compara dos valores un verdadero y otro falso con ||, ten encuenta que este operador coge el valor verdadero a diferencia de && que returna falso si tana solo un valor es falso. 2
+g) Con el operador correcto devuelve el valor direfente al que imprimes (true or false) 2
  */
 
 /**
@@ -54,21 +54,21 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 ---------------------TYPOS DE DATOS-------------------------------
 
-- Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra  3
-- una alerta con el resultado de la suma. 3
+- Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra  4
+- una alerta con el resultado de la suma. 4
 
-- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 2
-- Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10 igual 0.5 3
-- Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a. 3
+- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 3
+- Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10 igual 0.5 4
+- Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a. 4
 
  */
 
 /**
  * --------------------------------------CONDICIONALES-------------------------------
- * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir.
- * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 
- * 3.- Hacer un ejercicio con switch
- * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 
+ * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir. 1
+ * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 1
+ * 3.- Hacer un ejercicio con switch 1
+ * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 1
  */
 
 /**
@@ -105,36 +105,61 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 /*
 
+ * --------------------------------------CONDICIONALES-------------------------------
+
+ * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 1
+ * 3.- Hacer un ejercicio con switch 1
+ * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 1
 
 
- */
- 
+ */let person = {
+name : 'Lorna',
+edad: 19,
+ }
 
-let element =  document.querySelector('p');
-
-let t = [1,2,3];
-
-function solucion(a) {
-
-    return typeof a
-    
+if(person.edad <= 17 && person.edad >= 1 ) {
+    console.log('Todavia es menor de edad no puede conducir');
+} else if(person.edad == 18){
+    console.log('Solo puede votar pero hasta ahora no puede conducir');
+}else if(person.edad > 18 ){ 
+    console.log('Puede conducir y votar');
+}else{
+    console.log('tiavia es un feto');
 }
 
+ 
+document.querySelector('.container').innerHTML
 
-
-console.log(solucion(t))
-
-
-
-
-
-
-element.innerHTML = `<ul><li>${t[0]}</li><li>${t[1]}</li><li>${t[2]}</li></ul>`
+let parafo =  document.querySelector('p')
 
 
 
+let estacion = document.querySelector('#estaciones');
+
+addEventListener('click', estaciones);
+
+
+function estaciones() {
+
+    if(estacion.value == 'primavera'){
+      parafo.textContent = 'Esta es la mejor estacion para mucha gente'
+    }else if(estacion.value == 'verano'){
+        parafo.textContent = ' en esta estacion se gasta mas dinero'
+    }
+    
+}
+estaciones()
 
 
 
+
+
+
+
+
+
+
+//document.querySelector('p').innerHTML = 
 
     
+
