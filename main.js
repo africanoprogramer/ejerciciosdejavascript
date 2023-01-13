@@ -145,13 +145,37 @@ function estaciones() {
       parafo.textContent = 'Esta es la mejor estacion para mucha gente'
     }else if(estacion.value == 'verano'){
         parafo.textContent = ' en esta estacion se gasta mas dinero'
+    }else if(estacion.value = 'invierno'){
+        parafo.textContent = 'La pero estacion del anho'
     }
     
 }
 estaciones()
 
 
+function auto(modelo, marca, color) {
 
+    this.modelo = modelo;
+    this.marca = marca;
+    this.color = color
+    
+}
+
+let autos = [];
+
+for (let i = 0; i < 4; i++) {
+    
+let modelo = prompt('Ingresa el modelo del coche')
+let marca = prompt('La marca porfavor');
+let color = prompt('su color porfavor');
+
+    autos.push(new auto(modelo, marca, color))
+    
+}
+
+
+
+console.log(autos)
 
 
 
