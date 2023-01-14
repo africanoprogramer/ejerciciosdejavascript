@@ -1,11 +1,11 @@
 /**
  * -------------------VARIABLES-------------------
 
-1.Create a variable called carName, assign the value Volvo to it. 4
-2.Create a variable called x, assign the value 50 to it. 4
-3. Muestra la suma de dos variables con getelmentby.... 4
-4.Create a variable called z, assign x + y to it, and display the result in an alert box. 4
-5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 4
+1.Create a variable called carName, assign the value Volvo to it. 5
+2.Create a variable called x, assign the value 50 to it. 5
+3. Muestra la suma de dos variables con getelmentby.... 5
+4.Create a variable called z, assign x + y to it, and display the result in an alert box. 5
+5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 5
  */
 
 /**
@@ -14,65 +14,65 @@
 
 1.-Operdores de asignacion: asigna un valor al operando de la izquierda basado en el valor del operando de la derecha
 
-a) crea una variable asignale un numero, despues llama de nuevo esta variable y sumale +=5 y muestra el resultao 4
-b) lo mismo con la resta; 4
-c) lo mismo con la multiplicacion; 4
-d) lo mismo con la division; 4
-e) lo mismo con el resto -> ten encuenta que el resto lo conseguimos al numero mas cercano hacia abajo del numero divido, nos muestra el resto de una division. 4
+a) crea una variable asignale un numero, despues llama de nuevo esta variable y sumale +=5 y muestra el resultao 5
+b) lo mismo con la resta; 5
+c) lo mismo con la multiplicacion; 5
+d) lo mismo con la division; 5
+e) lo mismo con el resto -> ten encuenta que el resto lo conseguimos al numero mas cercano hacia abajo del numero divido, nos muestra el resto de una division. 5
 
 
 2.- Operdores aritmeticos: toman valores numericos ya sean literales o variables como sus operandos y retornan un valor numerico unico
 
-a) crea una variable y asignale un valor numerico y despues restale con este operador -- y luego muestralo en una varibale y lo muestras; 4
-b) haslo mismo con la suma 4
-c) divide dos numeros con variables diferentes. 4
-d) Divide 10 by 2, and alert the result: 4
-e) Alert the remainder(el resto de cuandp 15 es divido entre 9) when 15 is divided by 9. 4
+a) crea una variable y asignale un valor numerico y despues restale con este operador -- y luego muestralo en una varibale y lo muestras; 5
+b) haslo mismo con la suma 5
+c) divide dos numeros con variables diferentes. 5
+d) Divide 10 by 2, and alert the result: 5
+e) Alert the remainder(el resto de cuandp 15 es divido entre 9) when 15 is divided by 9. 5
 
 3.- Operadores de comparacion 
-a) compara dos valores usando && 3
-b) el mismo ejemplo pero despues retornando un valor 4
+a) compara dos valores usando && 5
+b) el mismo ejemplo pero despues retornando un valor 5
 
 
 3.- Operaciones de comparacion 1
-son los que devuelven un resultado buleano. 2
-a) compara un texto si es igual al otro 2
-b) compara si un texto es  diferente a otro. 2
-c) compâra si un texto es diferente a otro comparando con el mismo tipo de dato 2
-d) compara si un numero es menor al otro 2
-e) compara si la dimencion de un texto es mayor al otro 2
-f) compara dos valores un verdadero y otro falso con ||, ten encuenta que este operador coge el valor verdadero a diferencia de && que returna falso si tana solo un valor es falso. 2
-g) Con el operador correcto devuelve el valor direfente al que imprimes (true or false) 2
+son los que devuelven un resultado buleano. 5
+a) compara un texto si es igual al otro 5
+b) compara si un texto es  diferente a otro. 5
+c) compâra si un texto es diferente a otro comparando con el mismo tipo de dato 5
+d) compara si un numero es menor al otro 5
+e) compara si la dimencion de un texto es mayor al otro 4
+f) compara dos valores un verdadero y otro falso con ||, ten encuenta que este operador coge el valor verdadero a diferencia de && que returna falso si tana solo un valor es falso. 4
+g) Con el operador correcto devuelve el valor direfente al que imprimes (true or false) 4
  */
 
 /**
  *----------------------TEMPLATE STRING-----------------------------
 
-1. Concate dos frases 3
-2. crea dos promt y concatena las frases, 3
-3. usa las comillas invertidas y ponle un div y anhadele una lista desordenada 2
+1. Concate dos frases 5
+2. crea dos promt y concatena las frases, 5
+3. usa las comillas invertidas y ponle un div y anhadele una lista desordenada 4
 
 ---------------------TYPOS DE DATOS-------------------------------
 
-- Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra  4
-- una alerta con el resultado de la suma. 4
+- Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra  5
+- una alerta con el resultado de la suma. 5
 
-- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 3
-- Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10 igual 0.5 4
-- Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a. 4
+- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 4
+- Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10 igual 0.5 5
+- Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a. 5
 
  */
 
 /**
  * --------------------------------------CONDICIONALES-------------------------------
- * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir. 1
- * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 1
- * 3.- Hacer un ejercicio con switch 1
- * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 1
- * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse
- * 6.- haz lo mismo con el do while
- * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida
- * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero ejecuta
+ * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir. 3
+ * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 3
+ * 3.- Hacer un ejercicio con switch 3
+ * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 2
+ * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse 1
+ * 6.- haz lo mismo con el do while 1
+ * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida 1
+ * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero  1
  */
 
 /**
@@ -125,9 +125,6 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  
  */
 
-
-
-
 /*
 
 /**
@@ -146,7 +143,6 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
  * 4*- foreach me modifica el mismo array llamado,ejer: filtra el nombre de los articulos,no necesita una variable como los demas
  */
 
-
 /*
 
  * --------------------------------------CONDICIONALES-------------------------------
@@ -157,7 +153,7 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
 
 
  */
- * --------------------------------------DOM-------------------------------
+/* --------------------------------------DOM-------------------------------
   -Para modificar el dom esmejor query selector
   -setatributte : cmbio de atributo puede ser class, img etc.. ej: let pid =  document.getElementById('pid'); const img = document.createElement('img');
 img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif');
@@ -174,78 +170,32 @@ pid.appedChild(img);
 4.- coge dos input y crea un botn en html y haz un calculo con los valores que optengas, 
 
  */
-let person = {
-name : 'Lorna',
-edad: 19,
- }
 
-if(person.edad <= 17 && person.edad >= 1 ) {
-    console.log('Todavia es menor de edad no puede conducir');
-} else if(person.edad == 18){
-    console.log('Solo puede votar pero hasta ahora no puede conducir');
-}else if(person.edad > 18 ){ 
-    console.log('Puede conducir y votar');
-}else{
-    console.log('tiavia es un feto');
+/****** EJERCICIOS HACER
+ * 
+
+
+ * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 2
+ * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse 1
+ * 6.- haz lo mismo con el do while 1
+ * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida 1
+ * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero  1
+
+ */
+
+let p = document.querySelector("p");
+let select = document.querySelector("select");
+let h1 = document.createElement("h1");
+
+alert("Bienvenido a galambo");
+p.innerHTML = `<span style = 'color: 'green''>Precios de los Helados:</span> <br> <ul><li>sin cono <strong>500</strong></li> <li>con cono <strong>700</strong></li> <li>premium <strong>1000</strong></li></ul>`;
+let nombres = ["ondo", "edu", "ino"];
+for (let i = 0; i < 3; i++) {
+  let dinero = Number(prompt(`${nombres[i] + " " + "Cuanto dinero tienes"}`));
+
+  console.log(nombres[i], "Tiene" + " " + dinero);
+
+  h1.innerHTML = `<p>${(nombres[i], "Tiene" + " " + dinero)}</p>`;
 }
 
- 
-document.querySelector('.container').innerHTML
-
-let parafo =  document.querySelector('p')
-
-
-
-let estacion = document.querySelector('#estaciones');
-
-addEventListener('click', estaciones);
-
-
-function estaciones() {
-
-    if(estacion.value == 'primavera'){
-      parafo.textContent = 'Esta es la mejor estacion para mucha gente'
-    }else if(estacion.value == 'verano'){
-        parafo.textContent = ' en esta estacion se gasta mas dinero'
-    }else if(estacion.value = 'invierno'){
-        parafo.textContent = 'La pero estacion del anho'
-    }
-    
-}
-estaciones()
-
-
-function auto(modelo, marca, color) {
-
-    this.modelo = modelo;
-    this.marca = marca;
-    this.color = color
-    
-}
-
-let autos = [];
-
-for (let i = 0; i < 4; i++) {
-    
-let modelo = prompt('Ingresa el modelo del coche')
-let marca = prompt('La marca porfavor');
-let color = prompt('su color porfavor');
-
-    autos.push(new auto(modelo, marca, color))
-    
-}
-
-
-
-console.log(autos)
-
-
-
-
-
-
-
-//document.querySelector('p').innerHTML = 
-
-    
-
+// addEventListener("click", estaciones);
