@@ -69,6 +69,10 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 1
  * 3.- Hacer un ejercicio con switch 1
  * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 1
+ * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse
+ * 6.- haz lo mismo con el do while
+ * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida
+ * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero ejecuta
  */
 
 /**
@@ -86,6 +90,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  * 4.- ejercuta un numero con while
  * 5.- saluda a estudiantes con  while
  * 6.- hacer lo mismo con do while clase numero 20 platzi
+ * 7- hcrea un ejercicio qu recorra un array con for in y con for of
 
  
  */
@@ -104,6 +109,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  * 10.- el anho
  * 11.- coge la hora
  * 12.- minutos  y segundos
+ * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son?
  
  */
 
