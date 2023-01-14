@@ -98,8 +98,46 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto
  * 5.- crea una tarrea que agrega 7 autos y muestralos
  * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false
-
+ * 7.- console log objeto date
+ * 8.- coge la fecha pro en forma de numero
+ * 9.- lo mismo con el mes
+ * 10.- el anho
+ * 11.- coge la hora
+ * 12.- minutos  y segundos
  
+ */
+
+/**
+ * --------------------------------------FUNCIONES------------------------------------------
+ * 1*- combinar funciones y condicionales, crear una funcion que como parametro recibe la suscripcion que queramos ver si existe, curso practico 8
+ const tipodeSuscripciones = {
+  Free:"Solo puedes tomar los cursos gratis",
+  Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
+  Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
+  ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año",
+ }
+ 
+ */
+
+
+
+
+/*
+
+/**
+ * --------------------------------------METODOS ARRAY------------------------------------------
+ * 1.-El metodo filter te crea un nuevo array no modifca el principal, ejer: Crear un array tipo objeto articulos del coste y nombre de un producto, filtra articulos de menos de 500,
+ * 2.- .filter : nos permite filtrar solo los elementos que deseamos (según ciertos criterios) y devolverlos en un nuevo array.
+.map : crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. ejer; hacerlo mismo con el map estq vez solo filtrar los nombres de los articulos y ver la diferencia
+
+Teorias: Por si a alguien le quedó alguna duda con respecto a la diferencia entre find y filter:
+
+El método find () devuelve el primer valor que coincide de la colección. Una vez que coincida con el valor en los resultados, no verificará los valores restantes en la colección de matriz.
+
+El método filter () devuelve los valores coincidentes en una matriz de la colección. Verificará todos los valores de la colección y devolverá los valores coincidentes en una matriz.
+
+ * 3.- con find filtrar articulo de nombre laptop
+ * 4*- foreach me modifica el mismo array llamado,ejer: filtra el nombre de los articulos,no necesita una variable como los demas
  */
 
 
@@ -112,7 +150,25 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 1
 
 
- */let person = {
+ */
+ * --------------------------------------DOM-------------------------------
+  -Para modificar el dom esmejor query selector
+  -setatributte : cmbio de atributo puede ser class, img etc.. ej: let pid =  document.getElementById('pid'); const img = document.createElement('img');
+img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif');
+console.log(img);
+pid.appedChild(img);
+
+
+  - con classList: agregamos una nueva clase al documento y classList tiene add, remove
+1.crea un nuevo elemento img y agregale un atributo de una url
+2.-Agregale una nueva clase y ponle estilos
+3.- coge un elemento y agregale una nueva clase
+4.- crea un boton en htmly agrega un atributo onclick y dentro de este atributo agrea un funcion onclick llamo en html y haz un console.log
+5.- haz lomismo pero escuchando los resultados addlicenevennt
+4.- coge dos input y crea un botn en html y haz un calculo con los valores que optengas, 
+
+ */
+let person = {
 name : 'Lorna',
 edad: 19,
  }
