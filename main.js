@@ -40,9 +40,9 @@ a) compara un texto si es igual al otro 5
 b) compara si un texto es  diferente a otro. 5
 c) compâra si un texto es diferente a otro comparando con el mismo tipo de dato 5
 d) compara si un numero es menor al otro 5
-e) compara si la dimencion de un texto es mayor al otro 4
-f) compara dos valores un verdadero y otro falso con ||, ten encuenta que este operador coge el valor verdadero a diferencia de && que returna falso si tana solo un valor es falso. 4
-g) Con el operador correcto devuelve el valor direfente al que imprimes (true or false) 4
+e) compara si la dimencion de un texto es mayor al otro 5
+f) compara dos valores un verdadero y otro falso con ||, ten encuenta que este operador coge el valor verdadero a diferencia de && que returna falso si tana solo un valor es falso. 5
+g) Con el operador correcto devuelve el valor direfente al que imprimes (true or false) 5
  */
 
 /**
@@ -50,14 +50,14 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 1. Concate dos frases 5
 2. crea dos promt y concatena las frases, 5
-3. usa las comillas invertidas y ponle un div y anhadele una lista desordenada 4
+3. usa las comillas invertidas y ponle un div y anhadele una lista desordenada 5
 
 ---------------------TYPOS DE DATOS-------------------------------
 
 - Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra  5
 - una alerta con el resultado de la suma. 5
 
-- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 4
+- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 5
 - Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10 igual 0.5 5
 - Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a. 5
 
@@ -175,27 +175,21 @@ pid.appedChild(img);
  * 
 
 
- * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 2
- * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse 1
- * 6.- haz lo mismo con el do while 1
- * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida 1
- * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero  1
+
+ 
+
+
+
+ * - Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 5
 
  */
 
-let p = document.querySelector("p");
-let select = document.querySelector("select");
-let h1 = document.createElement("h1");
-
-alert("Bienvenido a galambo");
-p.innerHTML = `<span style = 'color: 'green''>Precios de los Helados:</span> <br> <ul><li>sin cono <strong>500</strong></li> <li>con cono <strong>700</strong></li> <li>premium <strong>1000</strong></li></ul>`;
-let nombres = ["ondo", "edu", "ino"];
-for (let i = 0; i < 3; i++) {
-  let dinero = Number(prompt(`${nombres[i] + " " + "Cuanto dinero tienes"}`));
-
-  console.log(nombres[i], "Tiene" + " " + dinero);
-
-  h1.innerHTML = `<p>${(nombres[i], "Tiene" + " " + dinero)}</p>`;
-}
-
 // addEventListener("click", estaciones);
+
+let elnumero = Number(prompt("Ingresa el numero que quiere calcular"));
+
+let result = (elnumero * 9) / 5 + 32;
+
+console.log(
+  elnumero + " " + "Celcius" + " " + "Son" + " " + result + " " + "Fharenheit"
+);
