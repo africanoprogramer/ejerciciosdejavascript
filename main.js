@@ -65,51 +65,52 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 /**
  * --------------------------------------CONDICIONALES-------------------------------
- * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir. 3
- * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 3
- * 3.- Hacer un ejercicio con switch 3
- * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 2
- * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse 1
- * 6.- haz lo mismo con el do while 1
- * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida 1
- * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero  1
+ * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir. 5
+ * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 5
+ * 3.- Hacer un ejercicio con switch 5
+ * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 5
+ * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse 5
+ * 6.- haz lo mismo con el do while 5
+ * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida 5
+ * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero  5
  */
 
 /**
  * ---------------------------------------ARRAYZ----------------------------------------
- * 1.-crea un array de tres frutas, anhade una fruta y se posiciona en la ultima posicion, otra fruta que se posicione en la primera posicion, cambia el valor del tercer array, elimina el primer array, elimina el ultimo array.
- * 2.- En eeste desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo.
+ * 1.-crea un array de tres frutas, anhade una fruta y se posiciona en la ultima posicion, otra fruta que se posicione en la primera posicion, cambia el valor del tercer array, elimina el primer array, elimina el ultimo array. 4
+ * 2.- En eeste desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo. 4
  * 3.-
  */
 
 /**
  * --------------------------------------LOOPS------------------------------------------
- * 1.-Cuenta los numeros hasta 10 for
- * 2.- has funcion que salude a los estudiantes.
- * 3.- lo mismo pero con for of
- * 4.- ejercuta un numero con while
- * 5.- saluda a estudiantes con  while
- * 6.- hacer lo mismo con do while clase numero 20 platzi
- * 7- hcrea un ejercicio qu recorra un array con for in y con for of
+ * 1.-Cuenta los numeros hasta 10 for 4
+ * 2.- has funcion que salude a los estudiantes. 4
+ * 3.- lo mismo pero con for of 4
+ * 4.- ejercuta un numero con while 4
+ * 5.- saluda a estudiantes con  while 4
+ * 6.- hacer lo mismo con do while clase numero 20 platzi 4
+ * 7- hcrea un ejercicio qu recorra un array con for in y con for  4
 
  
  */
 
 /**
  * --------------------------------------OBJETOS------------------------------------------
- * 1.-Hacer un objeto de un auto;
- * 2.- crear un input select en html y crear un objeto de un veiculo que al seleccionar algo el select sea la informacion que te retore el objeto.
- * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto.
- * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto
- * 5.- crea una tarrea que agrega 7 autos y muestralos
- * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false
- * 7.- console log objeto date
- * 8.- coge la fecha pro en forma de numero
- * 9.- lo mismo con el mes
- * 10.- el anho
- * 11.- coge la hora
- * 12.- minutos  y segundos
- * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son?
+ * 1.-Hacer un objeto de un auto; 1
+ * 2.- crear un input select en html y crear un objeto de un veiculo que al seleccionar algo el select sea la informacion que te retore el objeto. 1
+ * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 1
+ * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto 1
+ * 5.- crea una tarrea que agrega 7 autos y muestralos 1
+ * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false 1
+ * 7.- console log objeto date 1
+ * 8.- coge la fecha pro en forma de numero 1
+ * 9.- lo mismo con el mes 1
+ * 10.- el anho 1
+ * 11.- coge la hora 1
+ * 12.- minutos  y segundos 1
+ * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son? 1
+ * 14.- Matrandom 1
  
  */
 
@@ -175,21 +176,60 @@ pid.appedChild(img);
  * 
 
 
-
- 
-
+--------------------------------------OBJETOS------------------------------------------
 
 
- * - Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 5
+
+ * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto 1
+ * 5.- crea una tarrea que agrega 7 autos y muestralos 1
+ * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false 1
+ * 7.- console log objeto date 1
+ * 8.- coge la fecha pro en forma de numero 1
+ * 9.- lo mismo con el mes 1
+ * 10.- el anho 1
+ * 11.- coge la hora 1
+ * 12.- minutos  y segundos 1
+ * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son? 1
+ * 14.- Matrandom 1
+
+
+/**
 
  */
 
-// addEventListener("click", estaciones);
+let estacion = document.querySelector("#clima");
+let p = document.querySelector("p");
 
-let elnumero = Number(prompt("Ingresa el numero que quiere calcular"));
+// addEventListener("click");
 
-let result = (elnumero * 9) / 5 + 32;
+function autos(marca, modelo, color) {
+  this.marca = marca;
+  this.modelo = modelo;
+  this.color = color;
 
-console.log(
-  elnumero + " " + "Celcius" + " " + "Son" + " " + result + " " + "Fharenheit"
-);
+  function miCoche() {
+    return `Este coche es de Marca: ${this.marca} y el modelo es: ${this.modelo} y es de color ${this.color}`;
+  }
+}
+
+const auto = {
+  marca: "Toyota",
+  modelo: "Hilux",
+  anho: 2007,
+  color: "Azul",
+
+  nuevoCoche(marcaOndo, modeloOne, anhoOne, colorOne) {
+    return `Tu nuevo coche es ${(this.marca =
+      marcaOndo)} modelo ${(this.modelo = modeloOne)} es del año  ${(this.anho =
+      anhoOne)} color ${(this.color = colorOne)}`;
+  },
+};
+
+// let autoOne = new Auto("Toyota", "Carina2", 2008, "rojo");
+console.log(auto);
+console.log(auto.nuevoCoche("Mercedez", "cs300", 2009, "rojo"));
+console.log(auto.nuevoCoche("Toyota", "avencis 1", 2007, "azul"));
+
+console.log(autos);
+
+console.log(new autos("Patin", "electrica", "negro"));
