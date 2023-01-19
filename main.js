@@ -97,20 +97,20 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 /**
  * --------------------------------------OBJETOS------------------------------------------
- * 1.-Hacer un objeto de un auto; 1
- * 2.- crear un input select en html y crear un objeto de un veiculo que al seleccionar algo el select sea la informacion que te retore el objeto. 1
- * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 1
- * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto 1
- * 5.- crea una tarrea que agrega 7 autos y muestralos 1
- * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false 1
- * 7.- console log objeto date 1
- * 8.- coge la fecha pro en forma de numero 1
- * 9.- lo mismo con el mes 1
- * 10.- el anho 1
- * 11.- coge la hora 1
- * 12.- minutos  y segundos 1
- * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son? 1
- * 14.- Matrandom 1
+ * 1.-Hacer un objeto de un auto; 2
+ * 2.- crear un input select en html y crear un objeto de un veiculo que al seleccionar algo el select sea la informacion que te retore el objeto. 2
+ * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 2
+ * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto 2
+ * 5.- crea una tarrea que agrega 7 autos y muestralos 2
+ * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false 2
+ * 7.- console log objeto date 2
+ * 8.- coge la fecha pro en forma de numero 2
+ * 9.- lo mismo con el mes 2
+ * 10.- el anho 2
+ * 11.- coge la hora 2
+ * 12.- minutos  y segundos 2
+ * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son? 2
+
  
  */
 
@@ -122,7 +122,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
   Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
   Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
   ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año",
- }
+ } 2
  
  */
 
@@ -130,28 +130,21 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 /**
  * --------------------------------------METODOS ARRAY------------------------------------------
- * 1.-El metodo filter te crea un nuevo array no modifca el principal, ejer: Crear un array tipo objeto articulos del coste y nombre de un producto, filtra articulos de menos de 500,
- * 2.- .filter : nos permite filtrar solo los elementos que deseamos (según ciertos criterios) y devolverlos en un nuevo array.
-.map : crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. ejer; hacerlo mismo con el map estq vez solo filtrar los nombres de los articulos y ver la diferencia
+ * 1.-El metodo filter te crea un nuevo array no modifca el principal, ejer: Crear un array tipo objeto articulos del coste y nombre de un producto, filtra articulos de menos de 500, 1
+ * 2.- .filter : nos permite filtrar solo los elementos que deseamos (según ciertos criterios) y devolverlos en un nuevo array. 1
+.map : crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. ejer; hacerlo mismo con el map estq vez solo filtrar los nombres de los articulos y ver la diferencia 1
 
-Teorias: Por si a alguien le quedó alguna duda con respecto a la diferencia entre find y filter:
+Teorias: Por si a alguien le quedó alguna duda con respecto a la diferencia entre find y filter: 1
 
-El método find () devuelve el primer valor que coincide de la colección. Una vez que coincida con el valor en los resultados, no verificará los valores restantes en la colección de matriz.
+El método find () devuelve el primer valor que coincide de la colección. Una vez que coincida con el valor en los resultados, no verificará los valores restantes en la colección de matriz. 1
 
-El método filter () devuelve los valores coincidentes en una matriz de la colección. Verificará todos los valores de la colección y devolverá los valores coincidentes en una matriz.
+El método filter () devuelve los valores coincidentes en una matriz de la colección. Verificará todos los valores de la colección y devolverá los valores coincidentes en una matriz. 1
 
- * 3.- con find filtrar articulo de nombre laptop
- * 4*- foreach me modifica el mismo array llamado,ejer: filtra el nombre de los articulos,no necesita una variable como los demas
+ * 3.- con find filtrar articulo de nombre laptop 1
+ * 4*- foreach me modifica el mismo array llamado,ejer: filtra el nombre de los articulos,no necesita una variable como los demas 1
  */
 
 /*
-
- * --------------------------------------CONDICIONALES-------------------------------
-
- * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 1
- * 3.- Hacer un ejercicio con switch 1
- * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 1
-
 
  */
 /* --------------------------------------DOM-------------------------------
@@ -175,61 +168,6 @@ pid.appedChild(img);
 /****** EJERCICIOS HACER
  * 
 
-
---------------------------------------OBJETOS------------------------------------------
-
-
-
- * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto 1
- * 5.- crea una tarrea que agrega 7 autos y muestralos 1
- * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false 1
- * 7.- console log objeto date 1
- * 8.- coge la fecha pro en forma de numero 1
- * 9.- lo mismo con el mes 1
- * 10.- el anho 1
- * 11.- coge la hora 1
- * 12.- minutos  y segundos 1
- * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son? 1
- * 14.- Matrandom 1
-
-
 /**
 
  */
-
-let estacion = document.querySelector("#clima");
-let p = document.querySelector("p");
-
-// addEventListener("click");
-
-function autos(marca, modelo, color) {
-  this.marca = marca;
-  this.modelo = modelo;
-  this.color = color;
-
-  function miCoche() {
-    return `Este coche es de Marca: ${this.marca} y el modelo es: ${this.modelo} y es de color ${this.color}`;
-  }
-}
-
-const auto = {
-  marca: "Toyota",
-  modelo: "Hilux",
-  anho: 2007,
-  color: "Azul",
-
-  nuevoCoche(marcaOndo, modeloOne, anhoOne, colorOne) {
-    return `Tu nuevo coche es ${(this.marca =
-      marcaOndo)} modelo ${(this.modelo = modeloOne)} es del año  ${(this.anho =
-      anhoOne)} color ${(this.color = colorOne)}`;
-  },
-};
-
-// let autoOne = new Auto("Toyota", "Carina2", 2008, "rojo");
-console.log(auto);
-console.log(auto.nuevoCoche("Mercedez", "cs300", 2009, "rojo"));
-console.log(auto.nuevoCoche("Toyota", "avencis 1", 2007, "azul"));
-
-console.log(autos);
-
-console.log(new autos("Patin", "electrica", "negro"));
