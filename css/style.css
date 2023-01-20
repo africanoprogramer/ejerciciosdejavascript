@@ -1,0 +1,28 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 62.5%;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.rojo{
+    color: red
+}
+
+
+.azul{
+    color: blue
+}

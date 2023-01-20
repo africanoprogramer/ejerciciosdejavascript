@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <main>
       <div class="container">
-        <label
-          >Selecciona tu estacion:
-          <select name="clima" id="clima" onclick="estaciones()">
-            <option value="primavera">Primavera</option>
-            <option value="verano">Verano</option>
-            <option value="otonho">Otonho</option>
-            <option value="invierno">Invierno</option>
-          </select>
+        <label for="uno">
+          <span>Numero 1 </span>
+          <input type="text" id="numerouno" name="uno" required="true" />
         </label>
+
+        <label for="dos">
+          <span>Numero 2</span>
+          <input type="text" id="numerodos" name="dos" required />
+        </label>
+        <button id="buttonCalcular">sumar</button>
       </div>
-      <p></p>
+      <p>Resultado: <strong></strong></p>
     </main>
     <script src="./main.js"></script>
   </body>

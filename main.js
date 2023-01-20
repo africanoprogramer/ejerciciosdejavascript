@@ -97,19 +97,19 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 /**
  * --------------------------------------OBJETOS------------------------------------------
- * 1.-Hacer un objeto de un auto; 2
- * 2.- crear un input select en html y crear un objeto de un veiculo que al seleccionar algo el select sea la informacion que te retore el objeto. 2
- * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 2
- * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto 2
- * 5.- crea una tarrea que agrega 7 autos y muestralos 2
- * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false 2
- * 7.- console log objeto date 2
- * 8.- coge la fecha pro en forma de numero 2
- * 9.- lo mismo con el mes 2
- * 10.- el anho 2
- * 11.- coge la hora 2
- * 12.- minutos  y segundos 2
- * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son? 2
+ * 1.-Hacer un objeto de un auto; 3
+ * 2.- crear un input select en html y crear un objeto de un veiculo que al seleccionar algo el select sea la informacion que te retore el objeto. 3
+ * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 3
+ * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto 3
+ * 5.- crea una tarrea que agrega 7 autos y muestralos 3
+ * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false 3
+ * 7.- console log objeto date 3
+ * 8.- coge la fecha pro en forma de numero 3
+ * 9.- lo mismo con el mes 3
+ * 10.- el anho 3
+ * 11.- coge la hora 3
+ * 12.- minutos  y segundos 3
+ * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son? 3
 
  
  */
@@ -122,7 +122,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
   Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
   Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
   ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año",
- } 2
+ } 3
  
  */
 
@@ -130,44 +130,82 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 /**
  * --------------------------------------METODOS ARRAY------------------------------------------
- * 1.-El metodo filter te crea un nuevo array no modifca el principal, ejer: Crear un array tipo objeto articulos del coste y nombre de un producto, filtra articulos de menos de 500, 1
- * 2.- .filter : nos permite filtrar solo los elementos que deseamos (según ciertos criterios) y devolverlos en un nuevo array. 1
-.map : crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. ejer; hacerlo mismo con el map estq vez solo filtrar los nombres de los articulos y ver la diferencia 1
+ * 1.-El metodo filter te crea un nuevo array no modifca el principal, ejer: Crear un array tipo objeto articulos del coste y nombre de un producto, filtra articulos de menos de 500, 2
+ * 2.- .filter : nos permite filtrar solo los elementos que deseamos (según ciertos criterios) y devolverlos en un nuevo array. 2
+.map : crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. ejer; hacerlo mismo con el map estq vez solo filtrar los nombres de los articulos y ver la diferencia 2
 
-Teorias: Por si a alguien le quedó alguna duda con respecto a la diferencia entre find y filter: 1
+Teorias: Por si a alguien le quedó alguna duda con respecto a la diferencia entre find y filter: 2
 
-El método find () devuelve el primer valor que coincide de la colección. Una vez que coincida con el valor en los resultados, no verificará los valores restantes en la colección de matriz. 1
+El método find () devuelve el primer valor que coincide de la colección. Una vez que coincida con el valor en los resultados, no verificará los valores restantes en la colección de matriz. 2
 
-El método filter () devuelve los valores coincidentes en una matriz de la colección. Verificará todos los valores de la colección y devolverá los valores coincidentes en una matriz. 1
+El método filter () devuelve los valores coincidentes en una matriz de la colección. Verificará todos los valores de la colección y devolverá los valores coincidentes en una matriz. 2
 
- * 3.- con find filtrar articulo de nombre laptop 1
- * 4*- foreach me modifica el mismo array llamado,ejer: filtra el nombre de los articulos,no necesita una variable como los demas 1
+ * 3.- con find filtrar articulo de nombre laptop 2
+ * 4*- foreach me modifica el mismo array llamado,ejer: filtra el nombre de los articulos,no necesita una variable como los demas 2
  */
 
 /*
 
  */
 /* --------------------------------------DOM-------------------------------
-  -Para modificar el dom esmejor query selector
-  -setatributte : cmbio de atributo puede ser class, img etc.. ej: let pid =  document.getElementById('pid'); const img = document.createElement('img');
+ 1 - Para modificar el dom esmejor query selector
+ 2 - haz una funcion que suma dos inputs 1
+ 3 - haz tres botones de resta multiplicacion suma, y resta y que cuando toquen cada uno de ellos muestre un resultado diferente
+ 3 - crea un boton en htmly agrega un atributo onclick y dentro de este atributo agrea un funcion onclick llamo en html y haz un console.log 1
+ 5 - con classList: agregamos una nueva clase al documento y classList tiene add, remove 1
+ 6 - crea un nuevo elemento img y agregale un atributo de una url 1
+ 7 - coge un elemento y agregale una nueva clase 1
+ 8 - setatributte : cmbio de atributo puede ser class, img etc.. ej: let pid =  document.getElementById('pid'); const img = document.createElement('img'); 1
 img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif');
-console.log(img);
+
 pid.appedChild(img);
 
+/* ------------------------------------ADDEVENTLISTENER------------------------------
 
-  - con classList: agregamos una nueva clase al documento y classList tiene add, remove
-1.crea un nuevo elemento img y agregale un atributo de una url
-2.-Agregale una nueva clase y ponle estilos
-3.- coge un elemento y agregale una nueva clase
-4.- crea un boton en htmly agrega un atributo onclick y dentro de este atributo agrea un funcion onclick llamo en html y haz un console.log
-5.- haz lomismo pero escuchando los resultados addlicenevennt
-4.- coge dos input y crea un botn en html y haz un calculo con los valores que optengas, 
 
  */
 
 /****** EJERCICIOS HACER
- * 
+
 
 /**
 
  */
+
+let p = document.querySelector("p");
+
+let strong = document.querySelector("strong");
+
+let input1 = document.querySelector("#numerouno");
+let input2 = document.querySelector("#numerodos");
+let btn = document.querySelector("#buttonCalcular");
+
+let img = document.createElement("img");
+btn.addEventListener("click", sumar);
+
+img.setAttribute(
+  "src",
+  "https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif"
+);
+
+function sumar() {
+  let result = Number(input1.value) + Number(input2.value);
+  if (!result) {
+    alert("porfavor solo se puede sumar numeros");
+    input1.value = "";
+    input2.value = "";
+
+    return;
+  }
+  strong.textContent = result;
+
+  input1.value = "";
+  input2.value = "";
+  strong.append(img);
+
+  if (result > 10) {
+    strong.classList.add("rojo");
+  } else {
+    strong.classList.add("azul");
+  }
+}
