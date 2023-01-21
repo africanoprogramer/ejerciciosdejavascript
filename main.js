@@ -149,20 +149,25 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
  */
 /* --------------------------------------DOM-------------------------------
  1 - Para modificar el dom esmejor query selector
- 2 - haz una funcion que suma dos inputs 1
+ 2 - haz una funcion que suma dos inputs 2
  3 - haz tres botones de resta multiplicacion suma, y resta y que cuando toquen cada uno de ellos muestre un resultado diferente
- 3 - crea un boton en htmly agrega un atributo onclick y dentro de este atributo agrea un funcion onclick llamo en html y haz un console.log 1
- 5 - con classList: agregamos una nueva clase al documento y classList tiene add, remove 1
- 6 - crea un nuevo elemento img y agregale un atributo de una url 1
- 7 - coge un elemento y agregale una nueva clase 1
- 8 - setatributte : cmbio de atributo puede ser class, img etc.. ej: let pid =  document.getElementById('pid'); const img = document.createElement('img'); 1
+ 3 - crea un boton en htmly agrega un atributo onclick y dentro de este atributo agrea un funcion onclick llamo en html y haz un console.log 2
+ 5 - con classList: agregamos una nueva clase al documento y classList tiene add, remove 2
+ 6 - crea un nuevo elemento img y agregale un atributo de una url 2
+ 7 - coge un elemento y agregale una nueva clase 2
+ 8 - setatributte : cmbio de atributo puede ser class, img etc.. ej: let pid =  document.getElementById('pid'); const img = document.createElement('img'); 2
 img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif');
 
 pid.appedChild(img);
 
 /* ------------------------------------ADDEVENTLISTENER------------------------------
+1.- ahora quitale onclick al button en html y hazlo todo con addeventlistener
+2.- ahora hazlo pero con la etiqueta form
 
+ */
 
+/**************************************TRUCOS**********************************
+ * Entra en la pagina toptal.com/developers/gitignore para todos los giignore que quieras anhadir
  */
 
 /****** EJERCICIOS HACER
