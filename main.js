@@ -1,5 +1,5 @@
 /**
- * -------------------VARIABLES-------------------
+ * -------------------VARIABLES 6-------------------
 
 1.Create a variable called carName, assign the value Volvo to it. 5
 2.Create a variable called x, assign the value 50 to it. 5
@@ -10,7 +10,7 @@
 
 /**
  
-----------------------OPERADORES-------------------
+----------------------OPERADORES 6-------------------
 
 1.-Operdores de asignacion: asigna un valor al operando de la izquierda basado en el valor del operando de la derecha
 
@@ -46,25 +46,29 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- *----------------------TEMPLATE STRING-----------------------------
+ *----------------------TEMPLATE STRING 6-----------------------------
 
 1. Concate dos frases 5
 2. crea dos promt y concatena las frases, 5
 3. usa las comillas invertidas y ponle un div y anhadele una lista desordenada 5
 
----------------------TYPOS DE DATOS-------------------------------
+
+
+
+
+---------------------TYPOS DE DATOS 6-------------------------------
 
 - Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra  5
 - una alerta con el resultado de la suma. 5
 
-- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 5
+- Crear un programa donde el usuario ingrese en un prompt la temperatura en Celcius y el programa muestre en una alerta la temperatura en Fahrenheit. 5 (°C × 9/5) + 32 = °F
 - Pedir un número a un usuario a través de un prompt y luego dividirlo por 10, ejemplo: 5 / 10 igual 0.5 5
 - Si a = [1,2,3] crear un script que determine de muestre un alert del tipo de dato de a. 5
 
  */
 
 /**
- * --------------------------------------CONDICIONALES-------------------------------
+ * --------------------------------------CONDICIONALES -------------------------------
  * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir. 5
  * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 5
  * 3.- Hacer un ejercicio con switch 5
@@ -172,45 +176,30 @@ pid.appedChild(img);
 
 /****** EJERCICIOS HACER
 
+/*
 
-/**
+ /**
+ * -------------------VARIABLES 6-------------------
 
+1.Create a variable called carName, assign the value Volvo to it. 5
+2.Create a variable called x, assign the value 50 to it. 5
+3. Muestra la suma de dos variables con getelmentby.... 5
+4.Create a variable called z, assign x + y to it, and display the result in an alert box. 5
+5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 5
  */
 
-let p = document.querySelector("p");
 
-let strong = document.querySelector("strong");
+ 
 
-let input1 = document.querySelector("#numerouno");
-let input2 = document.querySelector("#numerodos");
-let btn = document.querySelector("#buttonCalcular");
+var userInfo =  'Ondo', userage = 31;
 
-let img = document.createElement("img");
-btn.addEventListener("click", sumar);
+var x =  50;
 
-img.setAttribute(
-  "src",
-  "https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif"
-);
+let suma1 = 5;
+let suma2 = 7;
 
-function sumar() {
-  let result = Number(input1.value) + Number(input2.value);
-  if (!result) {
-    alert("porfavor solo se puede sumar numeros");
-    input1.value = "";
-    input2.value = "";
+let z = suma1 + suma2;
 
-    return;
-  }
-  strong.textContent = result;
+document.querySelector('.result').innerHTML =`La suma es : ${userInfo} ${userage}` ;
 
-  input1.value = "";
-  input2.value = "";
-  strong.append(img);
 
-  if (result > 10) {
-    strong.classList.add("rojo");
-  } else {
-    strong.classList.add("azul");
-  }
-}
