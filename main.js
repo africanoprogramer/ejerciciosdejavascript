@@ -1,5 +1,5 @@
 /**
- * -------------------VARIABLES 7-------------------
+ * -------------------VARIABLES 8-------------------
 
 1.Create a variable called carName, assign the value Volvo to it. 5
 2.Create a variable called x, assign the value 50 to it. 5
@@ -10,7 +10,7 @@
 
 /**
  
-----------------------OPERADORES 7-------------------
+----------------------OPERADORES 8-------------------
 
 1.-Operdores de asignacion: asigna un valor al operando de la izquierda basado en el valor del operando de la derecha
 
@@ -46,7 +46,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- *----------------------TEMPLATE STRING 7-----------------------------
+ *----------------------TEMPLATE STRING 8-----------------------------
 
 1. Concate dos frases 5
 2. crea dos promt y concatena las frases, 5
@@ -56,7 +56,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 
 
----------------------TYPOS DE DATOS 7-------------------------------
+---------------------TYPOS DE DATOS 8-------------------------------
 
 - Escribir un programa que muestre un prompt donde el usuario ingresa un número, luego muestra otro prompt pidiendo otro número, finalmente el programa muestra  5
 - una alerta con el resultado de la suma. 5
@@ -179,47 +179,41 @@ pid.appedChild(img);
 
 
 
- * --------------------------------------CONDICIONALES 7 -------------------------------
 
 
- * 3.- Hacer un ejercicio con switch 5
- * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 5
- * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse 5
- * 6.- haz lo mismo con el do while 5
- * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida 5
- * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero  5
+3. usa las comillas invertidas y ponle un div y anhadele una lista desordenada 5
+
+
+
+
+
+
+
+
+
+
  */
 
 
 
+let x = [5,6,'8',[5,5], true,'Hola'];
 
+function tipScritp(scr) {
 
-for (let i = 0; i < 31; i++) {
-    const element = [i];
+    for (let i = 0; i < scr.length; i++) {
+        const element = scr[i];
 
-    if(i = 3){
-        console.log(i, 'Empeze el cole')
+        console.log( typeof scr[i]);
+        
     }
-    if(i = 12){
-        console.log(i, 'Djemira me quito la virginidad')
-    }
-
-    if(i = 19){
-        console.log(i, 'Termine y entre en la universidad')
-    }
-
-    if(i = 29){
-        console.log(i, 'me gradue')
-    }
-
-    if(i = 31){
-        console.log(i, 'Y ahora trabajo en bfgi')
-    }
-
-    console.log(i ,'Fin');
     
 }
 
+
+tipScritp(x)
+
+
+ 
 
 
 
