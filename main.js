@@ -80,14 +80,14 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- * ---------------------------------------ARRAYZ----------------------------------------
+ * ---------------------------------------ARRAYZ 6----------------------------------------
  * 1.-crea un array de tres frutas, anhade una fruta y se posiciona en la ultima posicion, otra fruta que se posicione en la primera posicion, cambia el valor del tercer array, elimina el primer array, elimina el ultimo array. 4
  * 2.- En eeste desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo. 4
  * 3.-
  */
 
 /**
- * --------------------------------------LOOPS------------------------------------------
+ * --------------------------------------LOOPS 5------------------------------------------
  * 1.-Cuenta los numeros hasta 10 for 4
  * 2.- has funcion que salude a los estudiantes. 4
  * 3.- lo mismo pero con for of 4
@@ -95,6 +95,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  * 5.- saluda a estudiantes con  while 4
  * 6.- hacer lo mismo con do while clase numero 20 platzi 4
  * 7- hcrea un ejercicio qu recorra un array con for in y con for  4
+ * 8- concate arrais con metodo join con separacion vacia y con separacion con algo un numero o palabra
 
  
  */
@@ -188,15 +189,22 @@ pid.appedChild(img);
 
  */
 
-var i = 0;
-while (i < 31) {
+function cambiarNombre(x) {
 
-    i++
+    x = x + 1;
 
-    console.log(i)
+    console.log(x)
+
+
     
 }
 
+
+let a  = 5;
+
+cambiarNombre(a);
+
+console.log(a);
 
 
 
