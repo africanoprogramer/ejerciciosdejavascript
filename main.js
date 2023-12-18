@@ -80,14 +80,14 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- * ---------------------------------------ARRAYZ 6----------------------------------------
+ * ---------------------------------------ARRAYZ 7----------------------------------------
  * 1.-crea un array de tres frutas, anhade una fruta y se posiciona en la ultima posicion, otra fruta que se posicione en la primera posicion, cambia el valor del tercer array, elimina el primer array, elimina el ultimo array. 4
  * 2.- En eeste desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo. 4
  * 3.-
  */
 
 /**
- * --------------------------------------LOOPS 5------------------------------------------
+ * --------------------------------------LOOPS 6------------------------------------------
  * 1.-Cuenta los numeros hasta 10 for 4
  * 2.- has funcion que salude a los estudiantes. 4
  * 3.- lo mismo pero con for of 4
@@ -178,41 +178,12 @@ pid.appedChild(img);
 
 /*
 
- * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir. 5
- * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 5
- * 3.- Hacer un ejercicio con switch 5
- * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 5
- * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse 5
- * 6.- haz lo mismo con el do while 5
- * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida 5
- * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero  5
+
 
  */
 
-function cambiarNombre(x) {
-
-    x = x + 1;
-
-    console.log(x)
-
-
-    
-}
-
-
-let a  = 5;
-
-cambiarNombre(a);
-
-console.log(a);
-
-
-
 
  
-
-
-
 
 
 
