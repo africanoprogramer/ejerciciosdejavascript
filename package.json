@@ -1,0 +1,21 @@
+{
+  "name": "ejerciciosdejavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/africanoprogramer/ejerciciosdejavascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/africanoprogramer/ejerciciosdejavascript/issues"
+  },
+  "homepage": "https://github.com/africanoprogramer/ejerciciosdejavascript#readme"
+}

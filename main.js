@@ -100,6 +100,49 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  
  */
 
+
+/**
+ * --------------------------------------STRING 6 METHOD--------------------------------------------
+ * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
+ * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
+ 
+ * 
+ *indexOf(searchValue, startIndex): La función indexOf busca la primera ocurrencia de un valor especificado (searchValue) dentro de una cadena.
+  Si lo encuentra, devuelve el índice de la primera aparición. Puedes especificar opcionalmente un índice inicial (startIndex) desde donde comenzar la búsqueda. 
+  Si no se encuentra el valor, devuelve -1.
+
+
+  slice(startIndex, endIndex): La función slice extrae una parte de una cadena y devuelve una nueva cadena. 
+  Toma dos parámetros: el índice de inicio (startIndex) y el índice final (endIndex) (este último es opcional). 
+  slice extrae desde startIndex hasta endIndex (sin incluir endIndex). Si endIndex no se proporciona, extrae hasta el final de la cadena. 
+ * 
+ 
+  replace() en JavaScript se utiliza para reemplazar parte de una cadena por otra y devuelve una nueva cadena con los reemplazos realizados.
+Su sintaxis es la siguiente: cadena.replace(valorAnterior, valorNuevo)
+ * 
+
+Math El objeto Math en JavaScript proporciona constantes y métodos para realizar operaciones matemáticas. 
+Contiene propiedades y métodos estáticos que no son instancias de un objeto Math, por lo que se accede directamente al objeto Math en sí mismo. 
+Math.round(x): Redondea x al entero más cercano.
+Math.floor(x): Redondea hacia abajo al entero más cercano.
+Math.ceil(x): Redondea hacia arriba al entero más cercano.
+
+
+ * 
+ * 1. escribe una variable saludo que contenga hola que tal, indica en que posicion se encuenta la letra o,
+ * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que'
+ * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script
+ * 4.- Replaza Hola mundo con Hola amigo
+ * 5. Calcula la raiz cuadrada de 8 con el metodo correcto
+ * 6.- Escribe una función que tome un número como entrada, calcule la raíz cuadrada de ese número y devuelva el resultado redondeado hacia abajo y hacia arriba.
+ * 7.- Crea un perfil de redes sociales donde el usuario tiene, informacion personal, direccion, y sus hoobies, la direccion es un objeto, hoobies array,
+ * 
+
+
+ 
+ */
+
+
 /**
  * --------------------------------------OBJETOS------------------------------------------
  * 1.-Hacer un objeto de un auto; 3
@@ -183,7 +226,7 @@ pid.appedChild(img);
  */
 
 
- 
+
 
 
 
