@@ -87,7 +87,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- * --------------------------------------LOOPS 7------------------------------------------
+ * --------------------------------------LOOPS 8------------------------------------------
  * 1.-Cuenta los numeros hasta 10 for 4
  * 2.- has funcion que salude a los estudiantes. 4
  * 3.- lo mismo pero con for of 4
@@ -107,9 +107,10 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
  
  * 
- *indexOf(searchValue, startIndex): La función indexOf busca la primera ocurrencia de un valor especificado (searchValue) dentro de una cadena.
+ *indexOf(searchValue, startIndex): La función indexOf busca la primera ocurrencia de un valor especificado (searchValue) dentro de una cadena. 
   Si lo encuentra, devuelve el índice de la primera aparición. Puedes especificar opcionalmente un índice inicial (startIndex) desde donde comenzar la búsqueda. 
   Si no se encuentra el valor, devuelve -1.
+  busca en que posicion se encuentra una palabra que buscas
 
 
   slice(startIndex, endIndex): La función slice extrae una parte de una cadena y devuelve una nueva cadena. 
@@ -130,8 +131,8 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
  * 
  * 1. escribe una variable saludo que contenga hola que tal, indica en que posicion se encuenta la letra o,
- * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que'
- * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script
+ * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que' indexof
+ * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script slice
  * 4.- Replaza Hola mundo con Hola amigo
  * 5. Calcula la raiz cuadrada de 8 con el metodo correcto
  * 6.- Escribe una función que tome un número como entrada, calcule la raíz cuadrada de ese número y devuelva el resultado redondeado hacia abajo y hacia arriba.
@@ -221,14 +222,35 @@ pid.appedChild(img);
 
 /*
 
-
-
-
+ 
  
 
-
-
+ 
  */
 
 
 
+
+
+let infoPerso = {
+    nombre: 'Braulio',
+    apellidos: 'Ondo',
+    edad: 31,
+}
+
+let dirreccion = {
+    pais: 'Guinea ecuatorial',
+    ciudad: 'Malabo',
+    calle:'Malabo 2'
+}
+
+let hoobies = ['programar','Footbol','Comer bien'];
+
+
+let persona = {
+    infoPerso,
+    dirreccion,
+    hoobies,
+}
+
+console.log(persona.hoobies.join('|'))
