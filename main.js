@@ -80,14 +80,14 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- * ---------------------------------------ARRAYZ 7----------------------------------------
+ * ---------------------------------------ARRAYZ 8----------------------------------------
  * 1.-crea un array de tres frutas, anhade una fruta y se posiciona en la ultima posicion, otra fruta que se posicione en la primera posicion, cambia el valor del tercer array, elimina el primer array, elimina el ultimo array. 4
  * 2.- En eeste desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo. 4
  * 3.-
  */
 
 /**
- * --------------------------------------LOOPS 6------------------------------------------
+ * --------------------------------------LOOPS 7------------------------------------------
  * 1.-Cuenta los numeros hasta 10 for 4
  * 2.- has funcion que salude a los estudiantes. 4
  * 3.- lo mismo pero con for of 4
@@ -102,7 +102,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 
 /**
- * --------------------------------------STRING 6 METHOD--------------------------------------------
+ * --------------------------------------STRING 5 METHOD--------------------------------------------
  * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
  * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
  
@@ -223,11 +223,12 @@ pid.appedChild(img);
 
 
 
+
+ 
+
+
+
  */
-
-
-
-
 
 
 
