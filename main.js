@@ -87,7 +87,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- * --------------------------------------LOOPS 7------------------------------------------
+ * --------------------------------------LOOPS 8------------------------------------------
  * 1.-Cuenta los numeros hasta 10 for 4
  * 2.- has funcion que salude a los estudiantes. 4
  * 3.- lo mismo pero con for of 4
@@ -102,7 +102,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 
 /**
- * --------------------------------------STRING 5 METHOD--------------------------------------------
+ * --------------------------------------STRING 6 METHOD--------------------------------------------
  * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
  * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
  
@@ -131,7 +131,9 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  * 
  * 1. escribe una variable saludo que contenga hola que tal, indica en que posicion se encuenta la letra o,
  * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que'
+ * 3. Crea un array de colores y haz un funcion que retorne el color azul y si no lo encuentra que diga este color no se encuentra
  * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script
+ * 4.-crea un array de numeros, y haz una funcion que traiga los numeros que se encuentran desde el segundo hasta el quito numero
  * 4.- Replaza Hola mundo con Hola amigo
  * 5. Calcula la raiz cuadrada de 8 con el metodo correcto
  * 6.- Escribe una función que tome un número como entrada, calcule la raíz cuadrada de ese número y devuelva el resultado redondeado hacia abajo y hacia arriba.
@@ -221,14 +223,41 @@ pid.appedChild(img);
 
 /*
 
-
-
-
  
 
 
+
+
+
+
+ * 7.- Crea un perfil de redes sociales donde el usuario tiene, informacion personal, direccion, y sus hoobies, la direccion es un objeto, hoobies array,
+ 
 
  */
 
 
 
+
+
+let info = {
+    nombre: 'Braulio',
+    apellidos: 'Ondo Edu',
+    edad: 31
+}
+
+let direcion = {
+    country: 'Ecuatorial guinea',
+    city: 'Malabo',
+    address: 'Malabo II, viviendas sociales de Arab E13 B 201'
+}
+
+let hobbie = ['Programar','Jugar a la play','Dormir'];
+
+let studentInfor = {
+     BraulioInfo : `Hola me llamo ${info.nombre} ${info.apellidos} tengo ${info.edad}
+     Vivo en ${direcion.country}, ${direcion.city}, ${direcion.address}
+     Me gusta ${hobbie.join('|')}
+     `
+}
+
+console.log(studentInfor.BraulioInfo)
