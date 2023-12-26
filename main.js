@@ -102,7 +102,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 
 /**
- * --------------------------------------STRING 6 METHOD--------------------------------------------
+ * --------------------------------------STRING 7 METHOD--------------------------------------------
  * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
  * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
  
@@ -229,6 +229,28 @@ pid.appedChild(img);
 /*
 
  */
+
+let numeros = [10,20,30,40,50,60,80,90];
+
+
+let palabra = 'Hola mundo'
+
+function numberSolution(rais) {
+
+    let resul =  Math.sqrt(rais);
+
+    if(resul.toFixed(2) < resul.toFixed(2) + 0.6){
+ 
+   console.log(Math.ceil(resul))
+    }else{
+      return Math.floor(resul)
+    }
+
+   
+}
+
+
+numberSolution(8)
 
 
 
