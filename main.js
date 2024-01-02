@@ -102,7 +102,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 
 /**
- * --------------------------------------STRING 7 METHOD--------------------------------------------
+ * --------------------------------------STRING 8 METHOD--------------------------------------------
  * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
  * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
  
@@ -148,6 +148,21 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
  
  */
+/**
+ * --------------------------------------FUNCIONES------------------------------------------
+ * 1*- combinar funciones y condicionales, crear una funcion que como parametro recibe la suscripcion que queramos ver si existe, curso practico 8
+ const tipodeSuscripciones = {
+  Free:"Solo puedes tomar los cursos gratis",
+  Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
+  Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
+  ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año",
+ } 
+
+ 2*- crea una conversacion con prompt donde el usuario le pregunta a al profesor como esta, y le responde que bien, y luego le pide que si le puede dar una lista de estudiantes,
+ y le responde que, despues hago un for o for of a la lista de estudiantes habiendo creado esta lista previamente
+ 
+ */
+
 
 
 /**
@@ -169,17 +184,6 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  
  */
 
-/**
- * --------------------------------------FUNCIONES------------------------------------------
- * 1*- combinar funciones y condicionales, crear una funcion que como parametro recibe la suscripcion que queramos ver si existe, curso practico 8
- const tipodeSuscripciones = {
-  Free:"Solo puedes tomar los cursos gratis",
-  Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
-  Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
-  ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año",
- } 3
- 
- */
 
 /*
 
@@ -227,33 +231,58 @@ pid.appedChild(img);
 
 
 /*
+ * 
 
+
+
+ * 7.- Crea un perfil de redes sociales donde el usuario tiene, informacion personal, direccion, y sus hoobies, la direccion es un objeto, hoobies array,
+ * 
  */
 
-let numeros = [10,20,30,40,50,60,80,90];
 
 
-let palabra = 'Hola mundo'
+class userPerfil{
+  constructor(nombre,apellido, addres,edad, tel){
+this.nombre = nombre;
+this.apellido = apellido;
+this.addres = addres;
+this.edad = edad;
+this.tel = tel;
+  }
 
-function numberSolution(rais) {
 
-    let resul =  Math.sqrt(rais);
 
-    if(resul.toFixed(2) < resul.toFixed(2) + 0.6){
- 
-   console.log(Math.ceil(resul))
-    }else{
-      return Math.floor(resul)
-    }
 
-   
 }
 
 
-numberSolution(8)
+
+
+const pedro = new userPerfil('Pedro','Macheba','Malabo, Sonagas',69, 222263598);
+const Inocencio = new userPerfil('Inocencio','Ngomo','USA Houston Textas', 28, 186952147);
+const Braulio = new userPerfil('Braulio','ondo','Bata, Monduasi',35,222211131);
+const Hernesto = new userPerfil('Hernesto','Edu','Spain, Madrid',38,222211131);
+
+let users = [pedro,Inocencio,Braulio, Hernesto];
+
+for (let i = 0; i < users.length; i++) {
+  let InfoUser = {
+  Nombre: users[i].nombre,
+  Apelledos: users[i].apellido,
+  addres: users[i].addres,
+  edad: users[i].edad,
+  tel: users[i].tel,
+
+}
 
 
 
+
+console.log(' Nombre:',InfoUser.Nombre ,'\n','Apellidos:',InfoUser.Apelledos,'\n','direccion: ',InfoUser.addres, '\n','Edad: ', InfoUser.edad ,'\n', 'Numero de Telefono: ', InfoUser.tel )
+
+
+  
+}
 
 
 
