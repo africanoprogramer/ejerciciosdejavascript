@@ -102,7 +102,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 
 /**
- * --------------------------------------STRING 7 METHOD--------------------------------------------
+ * --------------------------------------STRING 8 METHOD--------------------------------------------
  * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
  * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
  
@@ -121,6 +121,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
   replace() en JavaScript se utiliza para reemplazar parte de una cadena por otra y devuelve una nueva cadena con los reemplazos realizados.
 Su sintaxis es la siguiente: cadena.replace(valorAnterior, valorNuevo)
  * 
+*null quiere decir que es valor que hemos inicializado pero no llega todavia, en cambio undefine es un valor asignado por javascript que todo no hhay ningun valor inicializado
 
 Math El objeto Math en JavaScript proporciona constantes y métodos para realizar operaciones matemáticas. 
 Contiene propiedades y métodos estáticos que no son instancias de un objeto Math, por lo que se accede directamente al objeto Math en sí mismo. 
@@ -142,8 +143,8 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  * 4.- Replaza Hola mundo con Hola amigo
  * 5. Calcula la raiz cuadrada de 8 con el metodo correcto
  * 6.- Escribe una función que tome un número como entrada, calcule la raíz cuadrada de ese número y devuelva el resultado redondeado hacia abajo y hacia arriba.
- * 7.- Crea un perfil de redes sociales donde el usuario tiene, informacion personal, direccion, y sus hoobies, la direccion es un objeto, hoobies array,
- * 
+ * 7.- Crea un perfil de redes sociales donde el usuario tiene, informacion personal dale slice en el nombre, direccion, y sus hoobies, la direccion es un objeto, hoobies array,
+ * 8.- 
 
 
  
@@ -151,26 +152,23 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
 
 /**
- * --------------------------------------OBJETOS------------------------------------------
+ * --------------------------------------OBJETOS 8------------------------------------------
  * 1.-Hacer un objeto de un auto; 3
- * 2.- crear un input select en html y crear un objeto de un veiculo que al seleccionar algo el select sea la informacion que te retore el objeto. 3
+ * 2.- crea una clase animal con un constructor que tenga 5 animales diferentes
  * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 3
- * 4.- crear funcion constructora de un auto despues llama una instancia con un  nuevo auto 3
- * 5.- crea una tarrea que agrega 7 autos y muestralos 3
- * 6.- hacer una funcion que solo reciba un objeto como parametro, despues cuando le introduzcamos lo datos del auto si el auto no tiene licencia de conducir que lo traiga false 3
- * 7.- console log objeto date 3
- * 8.- coge la fecha pro en forma de numero 3
- * 9.- lo mismo con el mes 3
- * 10.- el anho 3
- * 11.- coge la hora 3
- * 12.- minutos  y segundos 3
- * 13.- haz un ejercicio que calcule desde 2000 hasta 2023 cuantos anhos son? 3
-
+ * 4.- despues crea una funcion dentro de la clase que retorne la informacion de los animales, pero no te olvides de crear un metodo this.info que recaude informacion
  
  */
 
 /**
- * --------------------------------------FUNCIONES------------------------------------------
+ * -------------------------------------OBJETO2 5--------------------------------------------
+ * crea un objeto de perfil de un usurio y solo muestra, los values de este objeto, en otra parte muestra las kays de este objeto
+ * muestra los valores de este objeto atraves de unos corchetes
+ */
+
+/**
+ * --------------------------------------FUNCIONES 6------------------------------------------
+ * -- un es todo lo que se encuenytra dentro de un objeto o una funcion
  * 1*- combinar funciones y condicionales, crear una funcion que como parametro recibe la suscripcion que queramos ver si existe, curso practico 8
  const tipodeSuscripciones = {
   Free:"Solo puedes tomar los cursos gratis",
@@ -227,33 +225,23 @@ pid.appedChild(img);
 
 
 /*
-
+ * crea un objeto de perfil de un usurio y solo muestra, los values de este objeto, en otra parte muestra las kays de este objeto
+ * muestra los valores de este objeto atraves de unos corchetes
  */
 
-let numeros = [10,20,30,40,50,60,80,90];
 
 
-let palabra = 'Hola mundo'
 
-function numberSolution(rais) {
-
-    let resul =  Math.sqrt(rais);
-
-    if(resul.toFixed(2) < resul.toFixed(2) + 0.6){
- 
-   console.log(Math.ceil(resul))
-    }else{
-      return Math.floor(resul)
-    }
-
-   
+let userPerfil = {
+  name: 'Ondo',
+  preName: 'Braulio',
+  age: 32,
+  phoneNumber: 222979431,
 }
 
+console.log(Object.keys(userPerfil.name));
 
-numberSolution(8)
+let myKays = Object.keys(userPerfil.name);
 
-
-
-
-
-
+ 
+console.log(myKays)
