@@ -199,6 +199,14 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
 
 /*
 
+/**
+ * --------------------------------------FUNCIONES PLATZI 5------------------------------------------
+*Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
+ */
+
+/*
+
+
  */
 /* --------------------------------------DOM-------------------------------
  1 - Para modificar el dom esmejor query selector
@@ -232,16 +240,13 @@ pid.appedChild(img);
 
 
 
-let userPerfil = {
-  name: 'Ondo',
-  preName: 'Braulio',
-  age: 32,
-  phoneNumber: 222979431,
+function calculateDiscount(prince, discount) {
+  
+  const discoun = (prince * discount) / 100;
+  const priceWhitDiscount = prince - discoun;
+
+  return priceWhitDiscount;
 }
 
-console.log(Object.keys(userPerfil.name));
 
-let myKays = Object.keys(userPerfil.name);
-
- 
-console.log(myKays)
+console.log(calculateDiscount(10000, 30))
