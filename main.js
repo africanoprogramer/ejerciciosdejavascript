@@ -1,4 +1,23 @@
 /**
+ * ---------------------------------DEBES APRENDER ESO-----------------------------------------------------
+ * Fundamentos:
+
+Sintaxis básica: Variables, tipos de datos, operadores, estructuras de control (if, else, for, while, etc.)
+Funciones: Definición, tipos de funciones, parámetros, ámbito
+Objetos: Creación, propiedades, métodos
+Arreglos: Métodos de manipulación, iteración
+Programación orientada a objetos:
+
+Clases: Creación, herencia, métodos
+Módulos: Importación y exportación de módulos
+Programación asíncrona:
+
+Promesas: Uso de promesas para manejar operaciones asíncronas
+Async/await: Uso de async/await para simplificar el manejo de código asíncrono
+DOM (Document Object Model):
+
+Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
+ * 
  * -------------------VARIABLES 8-------------------
 
 1.Create a variable called carName, assign the value Volvo to it. 5
@@ -6,9 +25,169 @@
 3. Muestra la suma de dos variables con getelmentby.... 5
 4.Create a variable called z, assign x + y to it, and display the result in an alert box. 5
 5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 5
+
+
+/**
+ * ---------------------------------------VARIABLES---------------------------------------------------
+ *
+ Declaración y asignación de variables:
+
+Enunciado: Declara tres variables (nombre, edad y ciudad) y asígnales valores. Luego, imprime cada una de las variables por separado.
+
+Operaciones con variables numéricas:
+
+Enunciado: Declara dos variables numéricas (num1 y num2) y realiza las siguientes operaciones con ellas: suma, resta, multiplicación y división. Imprime el resultado de cada operación.
+
+Concatenación de variables de texto:
+
+Enunciado: Declara dos variables de texto (nombre y apellido) y concaténalas para formar el nombre completo. Imprime el nombre completo resultante.
+
+Variables booleanas y condicionales:
+
+Enunciado: Declara una variable booleana (esMayorDeEdad) que indique si una persona es mayor de edad o no. Luego, utiliza una estructura condicional para imprimir un mensaje según el valor de esta variable.
+
+Alcance de variables (scope):
+
+Enunciado: Declara una variable (mensaje) fuera de una función y otra variable con el mismo nombre dentro de la función. Dentro de la función, imprime el valor de la variable local (mensaje). Luego, fuera de la función, imprime el valor de la variable global (mensaje). Observa cómo cambia el alcance de las variables en cada caso.
  */
 
 /**
+ * ---------------------------------------OPERADORES---------------------------------------------------
+ *
+Operadores aritméticos:
+
+Enunciado: Declara dos variables numéricas (num1 y num2) y realiza las siguientes operaciones aritméticas: suma, resta, multiplicación, división y módulo. Imprime el resultado de cada operación.
+
+Operadores de comparación:
+
+Enunciado: Declara dos variables (valor1 y valor2) y utiliza los operadores de comparación para determinar si valor1 es mayor que valor2, si son iguales y si son diferentes. Imprime el resultado de cada comparación.
+
+Operadores de asignación:
+
+Enunciado: Declara una variable numérica (total) y utiliza los operadores de asignación (+=, -=) para aumentar y disminuir su valor en 5. Imprime el valor de total después de cada operación.
+
+Operadores lógicos:
+
+Enunciado: Declara tres variables booleanas (a, b y c) y realiza las siguientes operaciones lógicas: a AND b, a OR b, y NOT c. Imprime el resultado de cada operación.
+
+Operadores de concatenación de cadenas:
+
+Enunciado: Declara dos variables de texto (nombre y apellido) y utiliza el operador de concatenación (+) para unirlas en una sola cadena que represente el nombre completo. Imprime el nombre completo resultante.
+ */
+
+/**
+ * ---------------------------------------ESTRUCTURA DE CONTROL---------------------------------------------------
+ *
+Estructura if-else:
+
+Enunciado: Declara una variable numérica (edad) y utiliza una estructura de control if-else para determinar si una persona es mayor de edad. Si la edad es mayor o igual a 18, imprime "Eres mayor de edad"; de lo contrario, imprime "Eres menor de edad".
+
+Estructura switch:
+
+Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes".
+
+Estructura for:
+
+Enunciado: Utiliza una estructura de control for para imprimir los números del 1 al 5 en la consola.
+
+Estructura while:
+
+Enunciado: Utiliza una estructura de control while para imprimir los números del 5 al 1 en la consola.
+
+Estructura do-while:
+
+Enunciado: Utiliza una estructura de control do-while para pedir al usuario que ingrese un número mayor que 10. Si el número ingresado es menor o igual a 10, sigue pidiendo al usuario que ingrese un número hasta que cumpla con la condición.
+
+Estos ejercicios te ayudarán a practicar y comprender mejor las estructuras de control en JavaScript, incluyendo if-else, switch, for, while y do-while.
+ */
+
+/**
+ /**
+ * ---------------------------------------TIPOS DE FUNCIONES---------------------------------------------------
+ *
+Función básica:
+
+Enunciado: Crea una función llamada saludar que imprima "¡Hola, mundo!" en la consola cuando sea llamada. Luego, llama a la función saludar.
+
+Función con parámetros:
+
+Enunciado: Crea una función llamada sumar que tome dos parámetros (num1 y num2) y devuelva la suma de ambos. Llama a la función sumar con dos números diferentes y muestra el resultado.
+
+Función con valor de retorno:
+
+Enunciado: Crea una función llamada esMayorDeEdad que tome un parámetro edad y devuelva true si la edad es mayor o igual a 18, y false en caso contrario. Llama a la función con diferentes valores de edad y muestra el resultado.
+
+Función anónima:
+
+Enunciado: Declara una variable llamada cuadrado y asígnale una función anónima que tome un parámetro (numero) y devuelva el cuadrado de ese número. Llama a la función cuadrado con un número y muestra el resultado.
+
+Función flecha:
+
+Enunciado: Convierte la función sumar del ejercicio 2 en una función flecha y prueba su funcionamiento llamándola con diferentes valores.
+ */
+
+/**
+ * ***************************************FUNCIONES AMBITO GLOBAL Y LOCAL*******************************************
+ * Ámbito global vs. ámbito local:
+
+Enunciado: Declara una variable mensaje fuera de una función. Luego, dentro de una función llamada saludar, declara una variable con el mismo nombre. Imprime el valor de ambas variables dentro y fuera de la función. Observa cómo el ámbito local de la variable dentro de la función afecta su visibilidad y valor.
+
+Modificación de variable global dentro de una función:
+
+Enunciado: Declara una variable global contador con un valor inicial de 0. Crea una función llamada incrementarContador que incrementa el valor de contador en 1. Llama a la función y luego imprime el valor de contador. Observa cómo la función modifica la variable global y cómo el cambio persiste fuera de la función.
+
+Ámbito léxico:
+
+Enunciado: Define una función externa llamada externa que declare una variable mensaje con un valor dentro de ella. Dentro de externa, define otra función llamada interna que imprima el valor de mensaje. Llama a la función interna desde dentro de externa. Observa cómo la función interna puede acceder a la variable definida en su función externa, demostrando el concepto de ámbito léxico.
+ */
+
+/**
+ /**
+ * ***************************************PROPIEDADES*******************************************
+Creación de un objeto:
+
+Enunciado: Crea un objeto llamado persona con las siguientes propiedades: nombre, edad, ciudad. Asigna valores a estas propiedades y luego imprime el objeto completo en la consola.
+
+Acceso a propiedades de un objeto:
+
+Enunciado: Utiliza el objeto persona del ejercicio anterior y accede a cada una de sus propiedades por separado. Imprime cada propiedad en la consola.
+
+Actualización de propiedades de un objeto:
+
+Enunciado: Utiliza el objeto persona del ejercicio 1 y actualiza la propiedad edad a un nuevo valor. Luego, imprime el objeto completo para verificar que la propiedad se ha actualizado correctamente.
+
+Añadir una nueva propiedad a un objeto:
+
+Enunciado: Utiliza el objeto persona del ejercicio 1 y añade una nueva propiedad llamada profesion con un valor de tu elección. Luego, imprime el objeto completo para verificar que la nueva propiedad se ha añadido correctamente.
+
+Eliminar una propiedad de un objeto:
+
+Enunciado: Utiliza el objeto persona del ejercicio 1 y elimina la propiedad ciudad. Luego, imprime el objeto completo para verificar que la propiedad se ha eliminado correctamente.
+
+/**
+  /**
+ * ***************************************METODOS*******************************************
+Método simple:
+
+Enunciado: Crea un objeto llamado persona con las propiedades nombre y edad. Luego, agrega un método llamado saludar que imprima un mensaje de saludo junto con el nombre de la persona. Llama al método saludar para que la persona muestre el saludo.
+
+Método con parámetros:
+
+Enunciado: Modifica el objeto persona del ejercicio anterior para que el método saludar acepte un parámetro otroNombre. El método debe imprimir un mensaje de saludo junto con el nombre proporcionado como argumento. Llama al método saludar con diferentes nombres para probarlo.
+
+Método que devuelve un valor:
+
+Enunciado: Agrega un nuevo método llamado obtenerEdad al objeto persona que devuelva la edad de la persona. Luego, asigna el resultado del método a una variable y imprímela en la consola.
+
+Método que modifica el objeto:
+
+Enunciado: Añade un método llamado cumplirAnios al objeto persona que incremente su edad en 1 unidad. Llama al método y luego imprime la nueva edad de la persona.
+
+Método con acceso a otras propiedades:
+
+Enunciado: Crea un método llamado presentarse en el objeto persona que imprima un mensaje que incluya el nombre, la edad y cualquier otra propiedad del objeto. Llama al método para que la persona se presente.
+/**
+ 
  
 ----------------------OPERADORES 8-------------------
 
@@ -100,7 +279,6 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  
  */
 
-
 /**
  * --------------------------------------STRING 8 METHOD--------------------------------------------
  * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
@@ -149,7 +327,6 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
  
  */
-
 
 /**
  * --------------------------------------OBJETOS 8------------------------------------------
@@ -208,18 +385,6 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
 
 
  */
-/* --------------------------------------DOM-------------------------------
- 1 - Para modificar el dom esmejor query selector
- 2 - haz una funcion que suma dos inputs 2
- 3 - haz tres botones de resta multiplicacion suma, y resta y que cuando toquen cada uno de ellos muestre un resultado diferente
- 3 - crea un boton en htmly agrega un atributo onclick y dentro de este atributo agrea un funcion onclick llamo en html y haz un console.log 2
- 5 - con classList: agregamos una nueva clase al documento y classList tiene add, remove 2
- 6 - crea un nuevo elemento img y agregale un atributo de una url 2
- 7 - coge un elemento y agregale una nueva clase 2
- 8 - setatributte : cmbio de atributo puede ser class, img etc.. ej: let pid =  document.getElementById('pid'); const img = document.createElement('img'); 2
-img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif');
-
-pid.appedChild(img);
 
 /* ------------------------------------ADDEVENTLISTENER------------------------------
 1.- ahora quitale onclick al button en html y hazlo todo con addeventlistener
@@ -231,22 +396,16 @@ pid.appedChild(img);
  * Entra en la pagina toptal.com/developers/gitignore para todos los giignore que quieras anhadir
  */
 
-
 /*
- * crea un objeto de perfil de un usurio y solo muestra, los values de este objeto, en otra parte muestra las kays de este objeto
- * muestra los valores de este objeto atraves de unos corchetes
+ *Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
  */
 
+function desc(precio, descuento) {
+  let preice = (descuento * precio) / 100;
 
+  let pricesWhitDescount = precio - preice;
 
-
-function calculateDiscount(prince, discount) {
-  
-  const discoun = (prince * discount) / 100;
-  const priceWhitDiscount = prince - discoun;
-
-  return priceWhitDiscount;
+  return pricesWhitDescount;
 }
 
-
-console.log(calculateDiscount(10000, 30))
+console.log(desc(10000, 30));
