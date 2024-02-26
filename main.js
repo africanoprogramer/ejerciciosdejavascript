@@ -28,7 +28,7 @@ Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
 
 
 /**
- * ---------------------------------------VARIABLES---------------------------------------------------
+ * ---------------------------------------VARIABLES 1---------------------------------------------------
  *
  Declaración y asignación de variables:
 
@@ -45,8 +45,10 @@ Enunciado: Declara dos variables de texto (nombre y apellido) y concaténalas pa
 Variables booleanas y condicionales:
 
 Enunciado: Declara una variable booleana (esMayorDeEdad) que indique si una persona es mayor de edad o no. Luego, utiliza una estructura condicional para imprimir un mensaje según el valor de esta variable.
+tiene que haber if
 
 Alcance de variables (scope):
+tiene que ser una funcion y el mensaje fuera de hola y rl consolog dentro con hola con nombre
 
 Enunciado: Declara una variable (mensaje) fuera de una función y otra variable con el mismo nombre dentro de la función. Dentro de la función, imprime el valor de la variable local (mensaje). Luego, fuera de la función, imprime el valor de la variable global (mensaje). Observa cómo cambia el alcance de las variables en cada caso.
  */
@@ -397,15 +399,24 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
  */
 
 /*
- *Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
+
+
+Operaciones con variables numéricas:
+
+Enunciado: Declara dos variables numéricas (num1 y num2) y realiza las siguientes operaciones con ellas: suma, resta, multiplicación y división. Imprime el resultado de cada operación.
+
+Concatenación de variables de texto:
+
+Enunciado: Declara dos variables de texto (nombre y apellido) y concaténalas para formar el nombre completo. Imprime el nombre completo resultante.
+
+Variables booleanas y condicionales:
+
+Enunciado: Declara una variable booleana (esMayorDeEdad) que indique si una persona es mayor de edad o no. Luego, utiliza una estructura condicional para imprimir un mensaje según el valor de esta variable.
+
+Alcance de variables (scope):
+
+Enunciado: Declara una variable (mensaje) fuera de una función y otra variable con el mismo nombre dentro de la función. Dentro de la función, imprime el valor de la variable local (mensaje). Luego, fuera de la función, imprime el valor de la variable global (mensaje). Observa cómo cambia el alcance de las variables en cada caso.
  */
 
-function desc(precio, descuento) {
-  let preice = (descuento * precio) / 100;
 
-  let pricesWhitDescount = precio - preice;
 
-  return pricesWhitDescount;
-}
-
-console.log(desc(10000, 30));
