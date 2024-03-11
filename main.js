@@ -28,7 +28,7 @@ Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
 
 
 /**
- * ---------------------------------------VARIABLES---------------------------------------------------
+ * ---------------------------------------VARIABLES 2---------------------------------------------------
  *
  Declaración y asignación de variables:
 
@@ -45,14 +45,16 @@ Enunciado: Declara dos variables de texto (nombre y apellido) y concaténalas pa
 Variables booleanas y condicionales:
 
 Enunciado: Declara una variable booleana (esMayorDeEdad) que indique si una persona es mayor de edad o no. Luego, utiliza una estructura condicional para imprimir un mensaje según el valor de esta variable.
+tiene que haber if
 
 Alcance de variables (scope):
+tiene que ser una funcion y el mensaje fuera de hola y rl consolog dentro con hola con nombre
 
 Enunciado: Declara una variable (mensaje) fuera de una función y otra variable con el mismo nombre dentro de la función. Dentro de la función, imprime el valor de la variable local (mensaje). Luego, fuera de la función, imprime el valor de la variable global (mensaje). Observa cómo cambia el alcance de las variables en cada caso.
  */
 
 /**
- * ---------------------------------------OPERADORES---------------------------------------------------
+ * ---------------------------------------OPERADORES 1---------------------------------------------------
  *
 Operadores aritméticos:
 
@@ -76,7 +78,7 @@ Enunciado: Declara dos variables de texto (nombre y apellido) y utiliza el opera
  */
 
 /**
- * ---------------------------------------ESTRUCTURA DE CONTROL---------------------------------------------------
+ * ---------------------------------------ESTRUCTURA DE CONTROL 1---------------------------------------------------
  *
 Estructura if-else:
 
@@ -187,8 +189,7 @@ Método con acceso a otras propiedades:
 
 Enunciado: Crea un método llamado presentarse en el objeto persona que imprima un mensaje que incluya el nombre, la edad y cualquier otra propiedad del objeto. Llama al método para que la persona se presente.
 /**
- 
- 
+
 ----------------------OPERADORES 8-------------------
 
 1.-Operdores de asignacion: asigna un valor al operando de la izquierda basado en el valor del operando de la derecha
@@ -317,7 +318,6 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
  * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que' indexof
  * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script slice
->>>>>>> 71da3431b39146cffe556f56341337d6f56006d3
  * 4.- Replaza Hola mundo con Hola amigo
  * 5. Calcula la raiz cuadrada de 8 con el metodo correcto
  * 6.- Escribe una función que tome un número como entrada, calcule la raíz cuadrada de ese número y devuelva el resultado redondeado hacia abajo y hacia arriba.
@@ -339,7 +339,7 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
  2*- crea una conversacion con prompt donde el usuario le pregunta a al profesor como esta, y le responde que bien, y luego le pide que si le puede dar una lista de estudiantes,
  y le responde que, despues hago un for o for of a la lista de estudiantes habiendo creado esta lista previamente
- 
+
  */
 
 
@@ -349,7 +349,7 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  * 2.- crea una clase animal con un constructor que tenga 5 animales diferentes
  * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 3
  * 4.- despues crea una funcion dentro de la clase que retorne la informacion de los animales, pero no te olvides de crear un metodo this.info que recaude informacion
- 
+
  */
 
 /**
@@ -362,13 +362,12 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  * --------------------------------------FUNCIONES 8------------------------------------------
  * -- un escope todo lo que se encuenytra dentro de un objeto o una funcion
  * 1*- combinar funciones y condicionales, crear una funcion que como parametro recibe la suscripcion que queramos ver si existe, curso practico 8
- const tipodeSuscripciones = {
+const tipodeSuscripciones = {
   Free:"Solo puedes tomar los cursos gratis",
   Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
   Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
-  ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año",
- } 3
- 
+  ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"} 3
+
  */
 
 
@@ -413,66 +412,27 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
  */
 
 /*
-<<<<<<< HEAD
-
- * 
-
-
-
 
 
 =======
  *Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
->>>>>>> 01f469f6c004fd7968594f90bbf7aead4efa652e
+
+=======
+ *
+
+
+
+
+
+
+Estructura do-while:
+
+Enunciado: Utiliza una estructura de control do-while para pedir al usuario que ingrese un número mayor que 10. Si el número ingresado es menor o igual a 10, sigue pidiendo al usuario que ingrese un número hasta que cumpla con la condición.
+
+Estos ejercicios te ayudarán a practicar y comprender mejor las estructuras de control en JavaScript, incluyendo if-else, switch, for, while y do-while.
  */
 
-function desc(precio, descuento) {
-  let preice = (descuento * precio) / 100;
-
-<<<<<<< HEAD
- const tipodeSuscripciones = {
-  Free:"Solo puedes tomar los cursos gratis",
-  Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
-  Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
-  ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año",
- } 
-
-
- function subSolution(sub) {
-
-  return sub ? sub : 'No existe'
-  
- }
-
-
- console.log(subSolution(tipodeSuscripciones.ExpertPlus))
 
 
 
 
-
-
-<<<<<<< HEAD
-
-
-
-=======
-function calculateDiscount(prince, discount) {
-  
-  const discoun = (prince * discount) / 100;
-  const priceWhitDiscount = prince - discoun;
-
-  return priceWhitDiscount;
-}
-
-
-console.log(calculateDiscount(10000, 30))
->>>>>>> 7c4ec060454cf05009f322c47494c6cc0487b5f5
-=======
-  let pricesWhitDescount = precio - preice;
-
-  return pricesWhitDescount;
-}
-
-console.log(desc(10000, 30));
->>>>>>> 01f469f6c004fd7968594f90bbf7aead4efa652e
