@@ -28,7 +28,7 @@ Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
 
 
 /**
- * ---------------------------------------VARIABLES 2---------------------------------------------------
+ * ---------------------------------------VARIABLES 3---------------------------------------------------
  *
  Declaración y asignación de variables:
 
@@ -54,7 +54,7 @@ Enunciado: Declara una variable (mensaje) fuera de una función y otra variable 
  */
 
 /**
- * ---------------------------------------OPERADORES 1---------------------------------------------------
+ * ---------------------------------------OPERADORES 3---------------------------------------------------
  *
 Operadores aritméticos:
 
@@ -78,7 +78,7 @@ Enunciado: Declara dos variables de texto (nombre y apellido) y utiliza el opera
  */
 
 /**
- * ---------------------------------------ESTRUCTURA DE CONTROL 1---------------------------------------------------
+ * ---------------------------------------ESTRUCTURA DE CONTROL 3---------------------------------------------------
  *
 Estructura if-else:
 
@@ -105,7 +105,7 @@ Estos ejercicios te ayudarán a practicar y comprender mejor las estructuras de 
 
 /**
  /**
- * ---------------------------------------TIPOS DE FUNCIONES---------------------------------------------------
+ * ---------------------------------------TIPOS DE FUNCIONES 1---------------------------------------------------
  *
 Función básica:
 
@@ -419,20 +419,11 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
 
 =======
  *
+/**
+ *
 
 
 
 
-
-
-Estructura do-while:
-
-Enunciado: Utiliza una estructura de control do-while para pedir al usuario que ingrese un número mayor que 10. Si el número ingresado es menor o igual a 10, sigue pidiendo al usuario que ingrese un número hasta que cumpla con la condición.
-
-Estos ejercicios te ayudarán a practicar y comprender mejor las estructuras de control en JavaScript, incluyendo if-else, switch, for, while y do-while.
  */
-
-
-
-
 
