@@ -28,14 +28,7 @@ Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
 3. Muestra la suma de dos variables con getelmentby.... 5
 4.Create a variable called z, assign x + y to it, and display the result in an alert box. 5
 5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 5
-<<<<<<< HEAD
- * ---------------------------------------VARIABLES 1---------------------------------------------------
-=======
 
-
-/**
- * ---------------------------------------VARIABLES 2---------------------------------------------------
->>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
  *
  Declaración y asignación de variables:
 
@@ -196,9 +189,7 @@ Método con acceso a otras propiedades:
 
 Enunciado: Crea un método llamado presentarse en el objeto persona que imprima un mensaje que incluya el nombre, la edad y cualquier otra propiedad del objeto. Llama al método para que la persona se presente.
 /**
-<<<<<<< HEAD
  
-
 /*
 ----------------------------------------------------METODOS DE MANIPULACION, iteracion -------------------------------------------
 
@@ -306,10 +297,6 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  
  */
 /*
- 
-=======
-
->>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
 ----------------------OPERADORES 8-------------------
 
 1.-Operdores de asignacion: asigna un valor al operando de la izquierda basado en el valor del operando de la derecha
@@ -392,10 +379,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  
  */
 
-
-
-<<<<<<< HEAD
-=======
+/*
   slice(startIndex, endIndex): La función slice extrae una parte de una cadena y devuelve una nueva cadena. 
   Toma dos parámetros: el índice de inicio (startIndex) y el índice final (endIndex) (este último es opcional). 
   slice extrae desde startIndex hasta endIndex (sin incluir endIndex). Si endIndex no se proporciona, extrae hasta el final de la cadena. 
@@ -447,7 +431,6 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  */
 
 
->>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
 /**
  * --------------------------------------OBJETOS 8------------------------------------------
  * 1.-Hacer un objeto de un auto; 3
@@ -526,9 +509,7 @@ Enunciado: Declara una variable (diaSemana) que represente un día de la semana 
 /*
 
 
-<<<<<<< HEAD
-=======
-=======
+
  *Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
 
 =======
@@ -545,30 +526,7 @@ Enunciado: Utiliza una estructura de control do-while para pedir al usuario que 
 
 Estos ejercicios te ayudarán a practicar y comprender mejor las estructuras de control en JavaScript, incluyendo if-else, switch, for, while y do-while.
  */
->>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
 
 
 
 
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-*/
-
-
-let numeros = [10, 20, 30, 40, 50];
-
-
-
-let dublicateNumber = numeros.map(num => 
-  num * 2).filter(numer => numer > 20).forEach(nummm=> {
-    console.log(nummm)
-  })
-=======
->>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
