@@ -17,17 +17,17 @@ Async/await: Uso de async/await para simplificar el manejo de código asíncrono
 DOM (Document Object Model):
 
 Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
+*/
+
+/**
  * 
- * -------------------VARIABLES 8-------------------
+ *  * -------------------VARIABLES 8-------------------
 
 1.Create a variable called carName, assign the value Volvo to it. 5
 2.Create a variable called x, assign the value 50 to it. 5
 3. Muestra la suma de dos variables con getelmentby.... 5
 4.Create a variable called z, assign x + y to it, and display the result in an alert box. 5
 5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 5
-
-
-/**
  * ---------------------------------------VARIABLES 1---------------------------------------------------
  *
  Declaración y asignación de variables:
@@ -63,7 +63,7 @@ Enunciado: Declara dos variables numéricas (num1 y num2) y realiza las siguient
 Operadores de comparación:
 
 Enunciado: Declara dos variables (valor1 y valor2) y utiliza los operadores de comparación para determinar si valor1 es mayor que valor2, si son iguales y si son diferentes. Imprime el resultado de cada comparación.
-
+ 
 Operadores de asignación:
 
 Enunciado: Declara una variable numérica (total) y utiliza los operadores de asignación (+=, -=) para aumentar y disminuir su valor en 5. Imprime el valor de total después de cada operación.
@@ -168,7 +168,7 @@ Enunciado: Utiliza el objeto persona del ejercicio 1 y elimina la propiedad ciud
 
 /**
   /**
- * ***************************************METODOS*******************************************
+ * ***************************************METODOS 3 *******************************************
 Método simple:
 
 Enunciado: Crea un objeto llamado persona con las propiedades nombre y edad. Luego, agrega un método llamado saludar que imprima un mensaje de saludo junto con el nombre de la persona. Llama al método saludar para que la persona muestre el saludo.
@@ -190,6 +190,114 @@ Método con acceso a otras propiedades:
 Enunciado: Crea un método llamado presentarse en el objeto persona que imprima un mensaje que incluya el nombre, la edad y cualquier otra propiedad del objeto. Llama al método para que la persona se presente.
 /**
  
+
+/*
+----------------------------------------------------METODOS DE MANIPULACION, iteracion -------------------------------------------
+
+map():
+
+Uso: Se utiliza cuando se quiere crear un nuevo arreglo con los resultados de aplicar una función a cada elemento del arreglo original.
+
+filter():
+
+Uso: Se utiliza cuando se quiere crear un nuevo arreglo con todos los elementos que cumplan una condición especificada en una función.
+
+forEach():
+
+Uso: Se utiliza para ejecutar una función por cada elemento del arreglo. Se utiliza principalmente cuando no se necesita crear un nuevo arreglo, sino realizar una acción sobre cada elemento del arreglo original.
+
+
+Agregar elementos a un arreglo:
+
+Enunciado: Declara un arreglo vacío llamado numeros. Luego, utiliza el método push() para agregar los números del 1 al 5 al final del arreglo. Imprime el arreglo resultante.
+
+Eliminar elementos de un arreglo:
+
+Enunciado: Utiliza el arreglo del ejercicio anterior. Elimina el último elemento del arreglo utilizando el método pop(). Imprime el arreglo resultante.
+
+Transformar elementos de un arreglo:
+
+Enunciado: Declara un arreglo de nombres llamado nombres con los siguientes nombres: "Juan", "María", "Pedro", "Ana". Utiliza el método map() para convertir todos los nombres a mayúsculas. Imprime el nuevo arreglo resultante.
+
+map(): Duplicar cada elemento de un arreglo
+let numeros = [1, 2, 3, 4, 5];
+
+map(): Convertir nombres a mayúsculas:
+let nombres = ['juan', 'maría', 'pedro'];
+
+
+Enunciado: Utiliza el arreglo del ejercicio anterior. Filtra los nombres que tengan más de 3 letras utilizando el método filter(). Imprime el nuevo arreglo resultante.
+filter(): Filtrar nombres que empiecen con 'A':
+let nombres = ['Ana', 'Juan', 'Marta', 'Pedro'];
+Filtrar elementos de un arreglo:
+filter(): Filtrar números mayores que 5
+let numeros = [2, 7, 4, 10, 3];
+
+
+Enunciado: Declara un arreglo de números llamado numeros con los siguientes números: 10, 20, 30, 40, 50. Utiliza el método forEach() para imprimir cada número multiplicado por 2 en la consola.
+forEach(): Imprimir el doble de cada número:
+let numeros = [1, 2, 3, 4, 5];
+forEach(): Imprimir la longitud de cada nombre:
+let nombres = ['Juan', 'María', 'Pedro'];
+
+
+// map, filter, foreach, primero dublica el array y filtra los numeros mayores a 2, y con foreach console.log el numero filtrado
+map(), filter(), forEach(): Combinar métodos:
+Copy code
+let numeros = [1, 2, 3, 4, 5];
+
+
+
+/*
+
+/**
+ * --------------------------------------STRING 1 METHOD--------------------------------------------
+ * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
+ * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
+ 
+ * 
+ *indexOf(searchValue, startIndex): La función indexOf busca la primera ocurrencia de un valor especificado (searchValue) dentro de una cadena. 
+  Si lo encuentra, devuelve el índice de la primera aparición. Puedes especificar opcionalmente un índice inicial (startIndex) desde donde comenzar la búsqueda. 
+  Si no se encuentra el valor, devuelve -1.
+  busca en que posicion se encuentra una palabra que buscas
+
+
+  slice(startIndex, endIndex): La función slice extrae una parte de una cadena y devuelve una nueva cadena. 
+  Toma dos parámetros: el índice de inicio (startIndex) y el índice final (endIndex) (este último es opcional). 
+  slice extrae desde startIndex hasta endIndex (sin incluir endIndex). Si endIndex no se proporciona, extrae hasta el final de la cadena. 
+ * 
+ 
+  replace() en JavaScript se utiliza para reemplazar parte de una cadena por otra y devuelve una nueva cadena con los reemplazos realizados.
+Su sintaxis es la siguiente: cadena.replace(valorAnterior, valorNuevo)
+ * 
+*null quiere decir que es valor que hemos inicializado pero no llega todavia, en cambio undefine es un valor asignado por javascript que todo no hhay ningun valor inicializado
+
+Math El objeto Math en JavaScript proporciona constantes y métodos para realizar operaciones matemáticas. 
+Contiene propiedades y métodos estáticos que no son instancias de un objeto Math, por lo que se accede directamente al objeto Math en sí mismo. 
+Math.round(x): Redondea x al entero más cercano.
+Math.floor(x): Redondea hacia abajo al entero más cercano.
+Math.ceil(x): Redondea hacia arriba al entero más cercano.
+
+
+ * 
+ * 1. escribe una variable saludo que contenga hola que tal, indica en que posicion se encuenta la letra o,
+ * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que'
+ * 3. Crea un array de colores y haz un funcion que retorne el color azul y si no lo encuentra que diga este color no se encuentra
+ * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script
+ * 4.-crea un array de numeros, y haz una funcion que traiga los numeros que se encuentran desde el segundo hasta el quito numero
+
+ * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que' indexof
+ * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script slice
+ * 4.- Replaza Hola mundo con Hola amigo
+ * 5. Calcula la raiz cuadrada de 8 con el metodo correcto
+ * 6.- Escribe una función que tome un número como entrada, calcule la raíz cuadrada de ese número y devuelva el resultado redondeado hacia abajo y hacia arriba.
+ * 7.- Crea un perfil de redes sociales donde el usuario tiene, informacion personal dale slice en el nombre, direccion, y sus hoobies, la direccion es un objeto, hoobies array,
+ * 8.- 
+
+
+ 
+ */
+/*
  
 ----------------------OPERADORES 8-------------------
 
@@ -227,14 +335,6 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- *----------------------TEMPLATE STRING 8-----------------------------
-
-1. Concate dos frases 5
-2. crea dos promt y concatena las frases, 5
-3. usa las comillas invertidas y ponle un div y anhadele una lista desordenada 5
-
-
-
 
 
 ---------------------TYPOS DE DATOS 8-------------------------------
@@ -281,54 +381,7 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  
  */
 
-/**
- * --------------------------------------STRING 8 METHOD--------------------------------------------
- * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
- * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
- 
- * 
- *indexOf(searchValue, startIndex): La función indexOf busca la primera ocurrencia de un valor especificado (searchValue) dentro de una cadena. 
-  Si lo encuentra, devuelve el índice de la primera aparición. Puedes especificar opcionalmente un índice inicial (startIndex) desde donde comenzar la búsqueda. 
-  Si no se encuentra el valor, devuelve -1.
-  busca en que posicion se encuentra una palabra que buscas
 
-
-  slice(startIndex, endIndex): La función slice extrae una parte de una cadena y devuelve una nueva cadena. 
-  Toma dos parámetros: el índice de inicio (startIndex) y el índice final (endIndex) (este último es opcional). 
-  slice extrae desde startIndex hasta endIndex (sin incluir endIndex). Si endIndex no se proporciona, extrae hasta el final de la cadena. 
- * 
- 
-  replace() en JavaScript se utiliza para reemplazar parte de una cadena por otra y devuelve una nueva cadena con los reemplazos realizados.
-Su sintaxis es la siguiente: cadena.replace(valorAnterior, valorNuevo)
- * 
-*null quiere decir que es valor que hemos inicializado pero no llega todavia, en cambio undefine es un valor asignado por javascript que todo no hhay ningun valor inicializado
-
-Math El objeto Math en JavaScript proporciona constantes y métodos para realizar operaciones matemáticas. 
-Contiene propiedades y métodos estáticos que no son instancias de un objeto Math, por lo que se accede directamente al objeto Math en sí mismo. 
-Math.round(x): Redondea x al entero más cercano.
-Math.floor(x): Redondea hacia abajo al entero más cercano.
-Math.ceil(x): Redondea hacia arriba al entero más cercano.
-
-
- * 
- * 1. escribe una variable saludo que contenga hola que tal, indica en que posicion se encuenta la letra o,
- * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que'
- * 3. Crea un array de colores y haz un funcion que retorne el color azul y si no lo encuentra que diga este color no se encuentra
- * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script
- * 4.-crea un array de numeros, y haz una funcion que traiga los numeros que se encuentran desde el segundo hasta el quito numero
-
- * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que' indexof
- * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script slice
->>>>>>> 71da3431b39146cffe556f56341337d6f56006d3
- * 4.- Replaza Hola mundo con Hola amigo
- * 5. Calcula la raiz cuadrada de 8 con el metodo correcto
- * 6.- Escribe una función que tome un número como entrada, calcule la raíz cuadrada de ese número y devuelva el resultado redondeado hacia abajo y hacia arriba.
- * 7.- Crea un perfil de redes sociales donde el usuario tiene, informacion personal dale slice en el nombre, direccion, y sus hoobies, la direccion es un objeto, hoobies array,
- * 8.- 
-
-
- 
- */
 
 /**
  * --------------------------------------OBJETOS 8------------------------------------------
@@ -381,6 +434,14 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
 /**
  * --------------------------------------FUNCIONES PLATZI 5------------------------------------------
 *Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
+Estructura switch:
+
+Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes".
+
+
+3.- Funcion que salude a estudiantes
+4.-
+
  */
 
 /*
@@ -397,26 +458,29 @@ El método filter () devuelve los valores coincidentes en una matriz de la colec
 /**************************************TRUCOS**********************************
  * Entra en la pagina toptal.com/developers/gitignore para todos los giignore que quieras anhadir
  */
-
 /*
 
 
-Operaciones con variables numéricas:
-
-Enunciado: Declara dos variables numéricas (num1 y num2) y realiza las siguientes operaciones con ellas: suma, resta, multiplicación y división. Imprime el resultado de cada operación.
-
-Concatenación de variables de texto:
-
-Enunciado: Declara dos variables de texto (nombre y apellido) y concaténalas para formar el nombre completo. Imprime el nombre completo resultante.
-
-Variables booleanas y condicionales:
-
-Enunciado: Declara una variable booleana (esMayorDeEdad) que indique si una persona es mayor de edad o no. Luego, utiliza una estructura condicional para imprimir un mensaje según el valor de esta variable.
-
-Alcance de variables (scope):
-
-Enunciado: Declara una variable (mensaje) fuera de una función y otra variable con el mismo nombre dentro de la función. Dentro de la función, imprime el valor de la variable local (mensaje). Luego, fuera de la función, imprime el valor de la variable global (mensaje). Observa cómo cambia el alcance de las variables en cada caso.
- */
 
 
 
+
+
+
+
+
+
+
+
+
+*/
+
+
+let numeros = [10, 20, 30, 40, 50];
+
+
+
+let dublicateNumber = numeros.map(num => 
+  num * 2).filter(numer => numer > 20).forEach(nummm=> {
+    console.log(nummm)
+  })
