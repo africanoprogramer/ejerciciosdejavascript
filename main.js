@@ -28,7 +28,14 @@ Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
 3. Muestra la suma de dos variables con getelmentby.... 5
 4.Create a variable called z, assign x + y to it, and display the result in an alert box. 5
 5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 5
+<<<<<<< HEAD
  * ---------------------------------------VARIABLES 1---------------------------------------------------
+=======
+
+
+/**
+ * ---------------------------------------VARIABLES 2---------------------------------------------------
+>>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
  *
  Declaración y asignación de variables:
 
@@ -54,7 +61,7 @@ Enunciado: Declara una variable (mensaje) fuera de una función y otra variable 
  */
 
 /**
- * ---------------------------------------OPERADORES---------------------------------------------------
+ * ---------------------------------------OPERADORES 1---------------------------------------------------
  *
 Operadores aritméticos:
 
@@ -78,7 +85,7 @@ Enunciado: Declara dos variables de texto (nombre y apellido) y utiliza el opera
  */
 
 /**
- * ---------------------------------------ESTRUCTURA DE CONTROL---------------------------------------------------
+ * ---------------------------------------ESTRUCTURA DE CONTROL 1---------------------------------------------------
  *
 Estructura if-else:
 
@@ -189,6 +196,7 @@ Método con acceso a otras propiedades:
 
 Enunciado: Crea un método llamado presentarse en el objeto persona que imprima un mensaje que incluya el nombre, la edad y cualquier otra propiedad del objeto. Llama al método para que la persona se presente.
 /**
+<<<<<<< HEAD
  
 
 /*
@@ -299,6 +307,9 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  */
 /*
  
+=======
+
+>>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
 ----------------------OPERADORES 8-------------------
 
 1.-Operdores de asignacion: asigna un valor al operando de la izquierda basado en el valor del operando de la derecha
@@ -383,38 +394,92 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
 
 
 
-/**
- * --------------------------------------OBJETOS 8------------------------------------------
- * 1.-Hacer un objeto de un auto; 3
- * 2.- crea una clase animal con un constructor que tenga 5 animales diferentes
- * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 3
- * 4.- despues crea una funcion dentro de la clase que retorne la informacion de los animales, pero no te olvides de crear un metodo this.info que recaude informacion
+<<<<<<< HEAD
+=======
+  slice(startIndex, endIndex): La función slice extrae una parte de una cadena y devuelve una nueva cadena. 
+  Toma dos parámetros: el índice de inicio (startIndex) y el índice final (endIndex) (este último es opcional). 
+  slice extrae desde startIndex hasta endIndex (sin incluir endIndex). Si endIndex no se proporciona, extrae hasta el final de la cadena. 
+ * 
+ 
+  replace() en JavaScript se utiliza para reemplazar parte de una cadena por otra y devuelve una nueva cadena con los reemplazos realizados.
+Su sintaxis es la siguiente: cadena.replace(valorAnterior, valorNuevo)
+ * 
+*null quiere decir que es valor que hemos inicializado pero no llega todavia, en cambio undefine es un valor asignado por javascript que todo no hhay ningun valor inicializado
+
+Math El objeto Math en JavaScript proporciona constantes y métodos para realizar operaciones matemáticas. 
+Contiene propiedades y métodos estáticos que no son instancias de un objeto Math, por lo que se accede directamente al objeto Math en sí mismo. 
+Math.round(x): Redondea x al entero más cercano.
+Math.floor(x): Redondea hacia abajo al entero más cercano.
+Math.ceil(x): Redondea hacia arriba al entero más cercano.
+
+
+ * 
+ * 1. escribe una variable saludo que contenga hola que tal, indica en que posicion se encuenta la letra o,
+ * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que'
+ * 3. Crea un array de colores y haz un funcion que retorne el color azul y si no lo encuentra que diga este color no se encuentra
+ * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script
+ * 4.-crea un array de numeros, y haz una funcion que traiga los numeros que se encuentran desde el segundo hasta el quito numero
+
+ * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que' indexof
+ * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script slice
+ * 4.- Replaza Hola mundo con Hola amigo
+ * 5. Calcula la raiz cuadrada de 8 con el metodo correcto
+ * 6.- Escribe una función que tome un número como entrada, calcule la raíz cuadrada de ese número y devuelva el resultado redondeado hacia abajo y hacia arriba.
+ * 7.- Crea un perfil de redes sociales donde el usuario tiene, informacion personal dale slice en el nombre, direccion, y sus hoobies, la direccion es un objeto, hoobies array,
+ * 8.- 
+
+
  
  */
-
 /**
- * -------------------------------------OBJETO2 5--------------------------------------------
- * crea un objeto de perfil de un usurio y solo muestra, los values de este objeto, en otra parte muestra las kays de este objeto
- * muestra los valores de este objeto atraves de unos corchetes
- */
-
-/**
- * --------------------------------------FUNCIONES 6------------------------------------------
- * -- un es todo lo que se encuenytra dentro de un objeto o una funcion
+ * --------------------------------------FUNCIONES------------------------------------------
  * 1*- combinar funciones y condicionales, crear una funcion que como parametro recibe la suscripcion que queramos ver si existe, curso practico 8
  const tipodeSuscripciones = {
   Free:"Solo puedes tomar los cursos gratis",
   Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
   Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
   ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año",
- } 3
- 
+ } 
+
+ 2*- crea una conversacion con prompt donde el usuario le pregunta a al profesor como esta, y le responde que bien, y luego le pide que si le puede dar una lista de estudiantes,
+ y le responde que, despues hago un for o for of a la lista de estudiantes habiendo creado esta lista previamente
+
  */
+
+
+>>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
+/**
+ * --------------------------------------OBJETOS 8------------------------------------------
+ * 1.-Hacer un objeto de un auto; 3
+ * 2.- crea una clase animal con un constructor que tenga 5 animales diferentes
+ * 3.- crea un funcion dentro del objeto que retorne la informacion que se encuentra dentro del objeto. 3
+ * 4.- despues crea una funcion dentro de la clase que retorne la informacion de los animales, pero no te olvides de crear un metodo this.info que recaude informacion
+
+ */
+
+/**
+ * -------------------------------------OBJETO2 6--------------------------------------------
+ * crea un objeto de perfil de un usurio y solo muestra, los values de este objeto, en otra parte muestra las kays de este objeto
+ * muestra los valores de este objeto atraves de unos corchetes
+ */
+
+/**
+ * --------------------------------------FUNCIONES 8------------------------------------------
+ * -- un escope todo lo que se encuenytra dentro de un objeto o una funcion
+ * 1*- combinar funciones y condicionales, crear una funcion que como parametro recibe la suscripcion que queramos ver si existe, curso practico 8
+const tipodeSuscripciones = {
+  Free:"Solo puedes tomar los cursos gratis",
+  Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
+  Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
+  ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"} 3
+
+ */
+
 
 /*
 
 /**
- * --------------------------------------METODOS ARRAY------------------------------------------
+ * --------------------------------------METODOS ARRAY 5------------------------------------------
  * 1.-El metodo filter te crea un nuevo array no modifca el principal, ejer: Crear un array tipo objeto articulos del coste y nombre de un producto, filtra articulos de menos de 500, 2
  * 2.- .filter : nos permite filtrar solo los elementos que deseamos (según ciertos criterios) y devolverlos en un nuevo array. 2
 .map : crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. ejer; hacerlo mismo con el map estq vez solo filtrar los nombres de los articulos y ver la diferencia 2
@@ -461,11 +526,32 @@ Enunciado: Declara una variable (diaSemana) que represente un día de la semana 
 /*
 
 
+<<<<<<< HEAD
+=======
+=======
+ *Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
+
+=======
+ *
 
 
 
 
 
+
+Estructura do-while:
+
+Enunciado: Utiliza una estructura de control do-while para pedir al usuario que ingrese un número mayor que 10. Si el número ingresado es menor o igual a 10, sigue pidiendo al usuario que ingrese un número hasta que cumpla con la condición.
+
+Estos ejercicios te ayudarán a practicar y comprender mejor las estructuras de control en JavaScript, incluyendo if-else, switch, for, while y do-while.
+ */
+>>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
+
+
+
+
+
+<<<<<<< HEAD
 
 
 
@@ -484,3 +570,5 @@ let dublicateNumber = numeros.map(num =>
   num * 2).filter(numer => numer > 20).forEach(nummm=> {
     console.log(nummm)
   })
+=======
+>>>>>>> ae22eff4a7a93ea32cc1ff96dbc1383038d5673b
