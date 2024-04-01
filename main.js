@@ -11,7 +11,6 @@ Programación orientada a objetos:
 Clases: Creación, herencia, métodos
 Módulos: Importación y exportación de módulos
 Programación asíncrona:
-
 Promesas: Uso de promesas para manejar operaciones asíncronas
 Async/await: Uso de async/await para simplificar el manejo de código asíncrono
 DOM (Document Object Model):
@@ -298,6 +297,42 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
  
  */
+
+/******************************************OTROS METODS DE MANIPULACION***************************************************
+ * push(): Agrega uno o más elementos al final de un arreglo.
+ * let numeros = [1, 2, 3];
+ * pop(): Elimina el último elemento de un arreglo y lo devuelve.
+ * let numeros = [1, 2, 3];
+ * shift(): Elimina el primer elemento de un arreglo y lo devuelve.
+ * let numeros = [1, 2, 3];
+ * unshift(): Agrega uno o más elementos al principio de un arreglo.
+ * let numeros = [2, 3];
+ * filter(): Crea un nuevo arreglo con los elementos que pasan una condición especificada en una función. Traeme todos los numeros impares de este array
+ * let numeros = [1, 2, 3, 4, 5];
+ * slice(): Devuelve una copia superficial de una porción del arreglo en un nuevo arreglo objeto seleccionado desde inicio hasta fin (fin no incluido). El arreglo original no se modificará.
+javascript
+let numeros = [1, 2, 3, 4, 5]; // elimina el ultimo numero y trae los demas
+ * reduce(): Aplica una función a un acumulador y a cada elemento del arreglo (de izquierda a derecha) para reducirlo a un solo valor.
+let numeros = [1, 2, 3, 4, 5]; /
+
+ */
+
+/********************************************OTRAS PROPIEDADES DE JS********************************************
+ * Try cacht, haz un ejercicio, es para capturar y manejar errores
+  Supongamos que queremos dividir dos números ingresados por el usuario y mostrar el resultado, pero queremos manejar cualquier error que ocurra si el usuario ingresa un valor no válido o si la división por cero ocurre:
+
+
+ * Destructuracion : a destructuración es una característica de JavaScript que permite descomponer o extraer valores de objetos o arreglos en variables individuales de una manera más concisa y legible.
+
+  Destructuración de Arreglos:
+let [variable1, variable2, ...resto] = arreglo;
+let numeros = [1, 2, 3]; // saca el primer y el segundo numero
+
+Destructuración de Objetos:
+let { propiedad1, propiedad2 } = objeto;
+let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del usuario
+
+ */
 /*
 ----------------------OPERADORES 8-------------------
 
@@ -477,8 +512,8 @@ const tipodeSuscripciones = {
 
  *Funcion que salude a estudiantes
  *Muestra la multipliacion de 2 de forma vertical
+ *Despues que haz una funcion que pida la tabla de multiplicacion que quiere aplicar
  *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes".
- *Funcion que salude a estudiantes
 
  *
 /**
@@ -486,3 +521,11 @@ const tipodeSuscripciones = {
 
 
  */
+
+
+for (let i = 0; i <= 10; i++) {
+
+
+  console.log(`Multiplicacion: 2 x ${i} = ${2 * i}`);
+
+}
