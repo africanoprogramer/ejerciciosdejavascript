@@ -29,12 +29,9 @@ Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
 4.Create a variable called z, assign x + y to it, and display the result in an alert box. 5
 5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 5
 
-<<<<<<< HEAD
-
 /**
  * ---------------------------------------VARIABLES 3---------------------------------------------------
-=======
->>>>>>> 205bd6d76ad9f518b8a3f45d60e738f2e5a21a6a
+
  *
  Declaración y asignación de variables:
 
@@ -111,7 +108,7 @@ Estos ejercicios te ayudarán a practicar y comprender mejor las estructuras de 
 
 /**
  /**
- * ---------------------------------------TIPOS DE FUNCIONES 1---------------------------------------------------
+ * ---------------------------------------TIPOS DE FUNCIONES 3---------------------------------------------------
  *
 Función básica:
 
@@ -135,7 +132,7 @@ Enunciado: Convierte la función sumar del ejercicio 2 en una función flecha y 
  */
 
 /**
- * ***************************************FUNCIONES AMBITO GLOBAL Y LOCAL*******************************************
+ * ***************************************FUNCIONES AMBITO GLOBAL Y LOCAL 3*******************************************
  * Ámbito global vs. ámbito local:
 
 Enunciado: Declara una variable mensaje fuera de una función. Luego, dentro de una función llamada saludar, declara una variable con el mismo nombre. Imprime el valor de ambas variables dentro y fuera de la función. Observa cómo el ámbito local de la variable dentro de la función afecta su visibilidad y valor.
@@ -151,7 +148,7 @@ Enunciado: Define una función externa llamada externa que declare una variable 
 
 /**
  /**
- * ***************************************PROPIEDADES*******************************************
+ * ***************************************PROPIEDADES 3*******************************************
 Creación de un objeto:
 
 Enunciado: Crea un objeto llamado persona con las siguientes propiedades: nombre, edad, ciudad. Asigna valores a estas propiedades y luego imprime el objeto completo en la consola.
@@ -197,7 +194,7 @@ Enunciado: Crea un método llamado presentarse en el objeto persona que imprima 
 /**
  
 /*
-----------------------------------------------------METODOS DE MANIPULACION, iteracion -------------------------------------------
+----------------------------------------------------METODOS DE MANIPULACION, iteracion 3-------------------------------------------
 
 map():
 
@@ -256,15 +253,15 @@ let numeros = [1, 2, 3, 4, 5];
 /*
 
 /**
- * --------------------------------------STRING 1 METHOD--------------------------------------------
- * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. 
+ * --------------------------------------STRING 2 METHOD--------------------------------------------
+ * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. me duevuelve la letra
  * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
  
  * 
  *indexOf(searchValue, startIndex): La función indexOf busca la primera ocurrencia de un valor especificado (searchValue) dentro de una cadena. 
   Si lo encuentra, devuelve el índice de la primera aparición. Puedes especificar opcionalmente un índice inicial (startIndex) desde donde comenzar la búsqueda. 
   Si no se encuentra el valor, devuelve -1.
-  busca en que posicion se encuentra una palabra que buscas
+ me duelvuel un numero, represaenta la posicion
 
 
   slice(startIndex, endIndex): La función slice extrae una parte de una cadena y devuelve una nueva cadena. 
@@ -284,8 +281,7 @@ Math.floor(x): Redondea hacia abajo al entero más cercano.
 Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
 
- * 
- * 1. escribe una variable saludo que contenga hola que tal, indica en que posicion se encuenta la letra o,
+
  * 2. lo mismo pero ahora con la letra l, y tambien intenta con una palabra 'que'
  * 3. Crea un array de colores y haz un funcion que retorne el color azul y si no lo encuentra que diga este color no se encuentra
  * 3.-Escribe la palabra Javascript y devuelve solo java, y despue aparte tambien devuelve el script
@@ -464,44 +460,7 @@ const tipodeSuscripciones = {
 
  */
 
-
 /*
-
-/**
- * --------------------------------------METODOS ARRAY 5------------------------------------------
- * 1.-El metodo filter te crea un nuevo array no modifca el principal, ejer: Crear un array tipo objeto articulos del coste y nombre de un producto, filtra articulos de menos de 500, 2
- * 2.- .filter : nos permite filtrar solo los elementos que deseamos (según ciertos criterios) y devolverlos en un nuevo array. 2
-.map : crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. ejer; hacerlo mismo con el map estq vez solo filtrar los nombres de los articulos y ver la diferencia 2
-
-Teorias: Por si a alguien le quedó alguna duda con respecto a la diferencia entre find y filter: 2
-
-El método find () devuelve el primer valor que coincide de la colección. Una vez que coincida con el valor en los resultados, no verificará los valores restantes en la colección de matriz. 2
-
-El método filter () devuelve los valores coincidentes en una matriz de la colección. Verificará todos los valores de la colección y devolverá los valores coincidentes en una matriz. 2
-
- * 3.- con find filtrar articulo de nombre laptop 2
- * 4*- foreach me modifica el mismo array llamado,ejer: filtra el nombre de los articulos,no necesita una variable como los demas 2
- */
-
-/*
-
-/**
- * --------------------------------------FUNCIONES PLATZI 5------------------------------------------
-*Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
-Estructura switch:
-
-Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes".
-
-
-3.- Funcion que salude a estudiantes
-4.-
-
- */
-
-/*
-
-
- */
 
 /* ------------------------------------ADDEVENTLISTENER------------------------------
 1.- ahora quitale onclick al button en html y hazlo todo con addeventlistener
@@ -514,15 +473,15 @@ Enunciado: Declara una variable (diaSemana) que represente un día de la semana 
  */
 /*
 
+-------------------------------EJERCICIOS GENERALES---------------------------------------------------------
 
+ *Funcion que salude a estudiantes
+ *Muestra la multipliacion de 2 de forma vertical
+ *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes".
+ *Funcion que salude a estudiantes
 
- *Calcula el desscuento de un 20% cuando una camiseta cuesta 8000
-
-=======
  *
 /**
- *
-
 
 
 
