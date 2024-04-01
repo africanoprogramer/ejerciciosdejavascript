@@ -527,10 +527,3 @@ Enunciado: Declara una variable (diaSemana) que represente un día de la semana 
 
 
  */
-
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 205bd6d76ad9f518b8a3f45d60e738f2e5a21a6a
