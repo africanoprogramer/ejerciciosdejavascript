@@ -18,6 +18,8 @@ botones.forEach(boton => {
                 pantalla.textContent = '0'
             }else{
                 pantalla.textContent = pantalla.textContent.slice(0, -1);
+
+s
             }
           
 

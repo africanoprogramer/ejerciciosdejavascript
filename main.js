@@ -252,7 +252,7 @@ let numeros = [1, 2, 3, 4, 5];
 /*
 
 /**
- * --------------------------------------STRING 2 METHOD--------------------------------------------
+ * --------------------------------------STRING 3 METHOD--------------------------------------------
  * charAt(index): Esta función devuelve el carácter en la posición específica de una cadena. me duevuelve la letra
  * El índice (index) es un número entero que representa la posición del carácter que se desea obtener
  
@@ -298,7 +298,7 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  
  */
 
-/******************************************OTROS METODS DE MANIPULACION***************************************************
+/******************************************OTROS METODS DE MANIPULACION 1***************************************************
  * push(): Agrega uno o más elementos al final de un arreglo.
  * let numeros = [1, 2, 3];
  * pop(): Elimina el último elemento de un arreglo y lo devuelve.
@@ -317,7 +317,7 @@ let numeros = [1, 2, 3, 4, 5]; /
 
  */
 
-/********************************************OTRAS PROPIEDADES DE JS********************************************
+/********************************************OTRAS PROPIEDADES DE JS 1********************************************
  * Try cacht, haz un ejercicio, es para capturar y manejar errores
   Supongamos que queremos dividir dos números ingresados por el usuario y mostrar el resultado, pero queremos manejar cualquier error que ocurra si el usuario ingresa un valor no válido o si la división por cero ocurre:
 
@@ -330,7 +330,7 @@ let numeros = [1, 2, 3]; // saca el primer y el segundo numero
 
 Destructuración de Objetos:
 let { propiedad1, propiedad2 } = objeto;
-let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del usuario
+let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del
 
  */
 /*
@@ -508,24 +508,25 @@ const tipodeSuscripciones = {
  */
 /*
 
--------------------------------EJERCICIOS GENERALES---------------------------------------------------------
+-------------------------------EJERCICIOS GENERALES 1---------------------------------------------------------
 
  *Funcion que salude a estudiantes
  *Muestra la multipliacion de 2 de forma vertical
  *Despues que haz una funcion que pida la tabla de multiplicacion que quiere aplicar
  *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes".
-
- *
+ *quiero que diga que azul se encuentra, pero si eso otro color aunque el que este en array que diga que no se encuentra
+ // map, filter, foreach, primero dublica el array y filtra los numeros mayores a 2, y con foreach console.log el numero filtrado
+map(), filter(), forEach(): Combinar métodos:
+Copy code
+let numeros = [1, 2, 3, 4, 5];
 /**
+
+
 
 
 
  */
 
 
-for (let i = 0; i <= 10; i++) {
 
 
-  console.log(`Multiplicacion: 2 x ${i} = ${2 * i}`);
-
-}
