@@ -298,7 +298,7 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
  
  */
 
-/******************************************OTROS METODS DE MANIPULACION 1***************************************************
+/******************************************OTROS METODS DE MANIPULACION 3***************************************************
  * push(): Agrega uno o más elementos al final de un arreglo.
  * let numeros = [1, 2, 3];
  * pop(): Elimina el último elemento de un arreglo y lo devuelve.
@@ -317,7 +317,7 @@ let numeros = [1, 2, 3, 4, 5]; /
 
  */
 
-/********************************************OTRAS PROPIEDADES DE JS 1********************************************
+/********************************************OTRAS PROPIEDADES DE JS 2********************************************
  * Try cacht, haz un ejercicio, es para capturar y manejar errores
   Supongamos que queremos dividir dos números ingresados por el usuario y mostrar el resultado, pero queremos manejar cualquier error que ocurra si el usuario ingresa un valor no válido o si la división por cero ocurre:
 
@@ -508,7 +508,7 @@ const tipodeSuscripciones = {
  */
 /*
 
--------------------------------EJERCICIOS GENERALES 1---------------------------------------------------------
+-------------------------------EJERCICIOS GENERALES 2---------------------------------------------------------
 
  *Funcion que salude a estudiantes
  *Muestra la multipliacion de 2 de forma vertical
@@ -517,16 +517,14 @@ const tipodeSuscripciones = {
  *quiero que diga que azul se encuentra, pero si eso otro color aunque el que este en array que diga que no se encuentra
  // map, filter, foreach, primero dublica el array y filtra los numeros mayores a 2, y con foreach console.log el numero filtrado
 map(), filter(), forEach(): Combinar métodos:
-Copy code
 let numeros = [1, 2, 3, 4, 5];
+ * filter(): Crea un nuevo arreglo con los elementos que pasan una condición especificada en una función. Traeme todos los numeros impares de este array
+ * let numeros = [1, 2, 3, 4, 5];
+ * slice(): Devuelve una copia superficial de una porción del arreglo en un nuevo arreglo objeto seleccionado desde inicio hasta fin (fin no incluido). El arreglo original no se modificará.
+javascript
 /**
 
 
 
 
-
  */
-
-
-
-
