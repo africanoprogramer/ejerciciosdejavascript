@@ -334,7 +334,7 @@ let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del
 
  */
 
-/********************************************Parámetros REST & Operador Spread********************************************
+/********************************************Parámetros REST & Operador Spread 2********************************************
  * Parámetros REST (...):
 El Parámetro REST (...) permite a una función aceptar un número variable de argumentos como un array. Esto significa que puedes pasar un número variable de argumentos a una función y acceder a ellos a través de un array dentro de la función.
 function sumar(...numeros) {
@@ -373,7 +373,7 @@ SPREAD
 
 
 
-/********************************************PROTOTIPOS********************************************
+/********************************************PROTOTIPOS 2********************************************
 
 En JavaScript, los prototipos son un mecanismo fundamental para la herencia y la compartición de propiedades y métodos entre objetos. Cada objeto en JavaScript tiene un prototipo, que es un objeto del cual hereda propiedades y métodos. Los prototipos permiten crear relaciones entre objetos de una manera eficiente y flexible.
 
@@ -569,12 +569,13 @@ const tipodeSuscripciones = {
  */
 /*
 
--------------------------------EJERCICIOS GENERALES 2---------------------------------------------------------
+-------------------------------EJERCICIOS GENERALES 3---------------------------------------------------------
 
  *Funcion que salude a estudiantes
  *Muestra la multipliacion de 2 de forma vertical
  *Despues que haz una funcion que pida la tabla de multiplicacion que quiere aplicar
  *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes".
+ *Crea un array de nombres y que te traiga tos los nombre que empiencen con la letra A
  *quiero que diga que azul se encuentra, pero si eso otro color aunque el que este en array que diga que no se encuentra
  // map, filter, foreach, primero dublica el array y filtra los numeros mayores a 2, y con foreach console.log el numero filtrado
 map(), filter(), forEach(): Combinar métodos:
@@ -586,24 +587,27 @@ javascript
 /**
 
 
-
-
  */
 
-function Persona(nombre, edad) {
-
-  this.nombre = nombre;
-  this.edad = edad;
-  
-}
 
 
-Persona.prototype.saludar = () =>{
-console.log(`Hola me llamo ${this.nombre} y tengo ${this.edad} años`)
-}
 
 
-let persona1 = new Persona('Juan', 30);
+let nombres  = ['Ana', 'Ester', 'Eliana', 'Alba'];
 
 
-persona1.saludar()
+
+    let nombresConA = nombres.filter(nombre => {
+     return  nombre.charAt(0) === 'A'
+     })
+    
+   
+
+   
+
+
+
+
+
+
+console.log(nombresConA)
