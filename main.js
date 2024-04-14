@@ -317,7 +317,7 @@ let numeros = [1, 2, 3, 4, 5]; /
 
  */
 
-/********************************************OTRAS PROPIEDADES DE JS 2********************************************
+/********************************************OTRAS PROPIEDADES DE JS 3********************************************
  * Try cacht, haz un ejercicio, es para capturar y manejar errores
   Supongamos que queremos dividir dos números ingresados por el usuario y mostrar el resultado, pero queremos manejar cualquier error que ocurra si el usuario ingresa un valor no válido o si la división por cero ocurre:
 
@@ -334,7 +334,7 @@ let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del
 
  */
 
-/********************************************Parámetros REST & Operador Spread 2********************************************
+/********************************************Parámetros REST & Operador Spread 3********************************************
  * Parámetros REST (...):
 El Parámetro REST (...) permite a una función aceptar un número variable de argumentos como un array. Esto significa que puedes pasar un número variable de argumentos a una función y acceder a ellos a través de un array dentro de la función.
 function sumar(...numeros) {
@@ -584,30 +584,14 @@ let numeros = [1, 2, 3, 4, 5];
  * let numeros = [1, 2, 3, 4, 5];
  * slice(): Devuelve una copia superficial de una porción del arreglo en un nuevo arreglo objeto seleccionado desde inicio hasta fin (fin no incluido). El arreglo original no se modificará.
 javascript
-/**
+REST...
+* Crea una función llamada maximo que acepte un array de números como argumento y devuelva el número máximo.
+hazlo con foREach y con reduce
 
+SPREAD
+* Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados.
 
- */
-
-
-
-
-
-let nombres  = ['Ana', 'Ester', 'Eliana', 'Alba'];
-
-
-
-    let nombresConA = nombres.filter(nombre => {
-     return  nombre.charAt(0) === 'A'
-     })
-    
-   
-
-   
+*/
 
 
 
-
-
-
-console.log(nombresConA)
