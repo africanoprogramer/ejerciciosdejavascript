@@ -373,7 +373,7 @@ SPREAD
 
 
 
-/********************************************PROTOTIPOS 2********************************************
+/********************************************PROTOTIPOS 3********************************************
 
 En JavaScript, los prototipos son un mecanismo fundamental para la herencia y la compartición de propiedades y métodos entre objetos. Cada objeto en JavaScript tiene un prototipo, que es un objeto del cual hereda propiedades y métodos. Los prototipos permiten crear relaciones entre objetos de una manera eficiente y flexible.
 
@@ -590,8 +590,65 @@ hazlo con foREach y con reduce
 
 SPREAD
 * Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados.
+ * Try cacht, haz un ejercicio, es para capturar y manejar errores
+  Supongamos que queremos dividir dos números ingresados por el usuario y mostrar el resultado, pero queremos manejar cualquier error que ocurra si el usuario ingresa un valor no válido o si la división por cero ocurre:
 
+ * Destructuracion : a destructuración es una característica de JavaScript que permite descomponer o extraer valores de objetos o arreglos en variables individuales de una manera más concisa y legible.
+
+  Destructuración de Arreglos:
+let [variable1, variable2, ...resto] = arreglo;
+let numeros = [1, 2, 3]; // saca el primer y el segundo numero
+
+Destructuración de Objetos:
+let { propiedad1, propiedad2 } = objeto;
+let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del
 */
 
 
+/**
+ *  * Parámetros REST (...):
+El Parámetro REST (...) permite a una función aceptar un número variable de argumentos como un array. Esto significa que puedes pasar un número variable de argumentos a una función y acceder a ellos a través de un array dentro de la función.
+function sumar(...numeros) {
+  return numeros.reduce((total, num) => total + num, 0);
+}
+total es el numero acumulado y num es el resultado actual a mostrar, el cero solo es numero opcional del num en caso de que no tengamos un numero
 
+console.log(sumar(1, 2, 3, 4, 5)); // Output: 15
+console.log(sumar(10, 20));   
+
+*Operador Spread (...):
+El Operador Spread (...) se utiliza para descomponer un array en elementos individuales. También se puede utilizar para combinar múltiples elementos en un array.
+no hace falta fora=each ni reduce
+Ejemplo:
+javascript
+Copy code
+let numeros = [1, 2, 3];
+let masNumeros = [4, 5, 6];
+
+let todosLosNumeros = [...numeros, ...masNumeros];
+
+console.log(todosLosNumeros); // Output: [1, 2, 3, 4, 5, 6]
+En este ejemplo, el operador Spread se utiliza para combinar los arrays numeros y masNumeros en un único array todosLosNumeros.
+
+Ejercicios:
+
+REST...
+* Crea una función llamada maximo que acepte un array de números como argumento y devuelva el número máximo.
+hazlo con foREach y con reduce
+
+SPREAD
+* Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados.
+
+ */
+
+
+
+
+function numeroMaximo(...numeros ) {
+
+ return numeros.reduce((total, num) => total + num)
+}
+
+let numeroArray = [1,2,3,4,5,6]
+
+console.log(numeroMaximo(1,2,3,4,5,6))
