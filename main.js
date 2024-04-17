@@ -569,7 +569,7 @@ const tipodeSuscripciones = {
  */
 /*
 
--------------------------------EJERCICIOS GENERALES 3---------------------------------------------------------
+-------------------------------EJERCICIOS GENERALES 5---------------------------------------------------------
 
  *Funcion que salude a estudiantes
  *Muestra la multipliacion de 2 de forma vertical
@@ -602,53 +602,49 @@ let numeros = [1, 2, 3]; // saca el primer y el segundo numero
 Destructuración de Objetos:
 let { propiedad1, propiedad2 } = objeto;
 let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del
+
+* prototipo
+ crea una funcion persona y agregale dos parametros nombre y edad y llamalo con this y despues crea una nueva instancia de persona, se llamara persona1 
+despues crea un prototipo persona que se llama suludar que salude con los datos puestos en persona1
+recuerda los prototipos no pueden ser arrow funtion
+
 */
 
 
 /**
- *  * Parámetros REST (...):
-El Parámetro REST (...) permite a una función aceptar un número variable de argumentos como un array. Esto significa que puedes pasar un número variable de argumentos a una función y acceder a ellos a través de un array dentro de la función.
-function sumar(...numeros) {
-  return numeros.reduce((total, num) => total + num, 0);
-}
-total es el numero acumulado y num es el resultado actual a mostrar, el cero solo es numero opcional del num en caso de que no tengamos un numero
 
-console.log(sumar(1, 2, 3, 4, 5)); // Output: 15
-console.log(sumar(10, 20));   
 
-*Operador Spread (...):
-El Operador Spread (...) se utiliza para descomponer un array en elementos individuales. También se puede utilizar para combinar múltiples elementos en un array.
-no hace falta fora=each ni reduce
-Ejemplo:
-javascript
-Copy code
-let numeros = [1, 2, 3];
-let masNumeros = [4, 5, 6];
 
-let todosLosNumeros = [...numeros, ...masNumeros];
 
-console.log(todosLosNumeros); // Output: [1, 2, 3, 4, 5, 6]
-En este ejemplo, el operador Spread se utiliza para combinar los arrays numeros y masNumeros en un único array todosLosNumeros.
+ 
 
-Ejercicios:
 
-REST...
-* Crea una función llamada maximo que acepte un array de números como argumento y devuelva el número máximo.
-hazlo con foREach y con reduce
 
-SPREAD
-* Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados.
+
+
+
 
  */
 
 
+function Persona(nombre, edad) {
 
+  this.nombre = nombre;
+  this.edad = edad;
 
-function numeroMaximo(...numeros ) {
-
- return numeros.reduce((total, num) => total + num)
+  
 }
 
-let numeroArray = [1,2,3,4,5,6]
+Persona.prototype.saludar =function () {
+  console.log( `Hola ${this.nombre}`)
+}
 
-console.log(numeroMaximo(1,2,3,4,5,6))
+let persona1 = new Persona('Braulio', 30);
+let persona2 = new Persona('Rafael', 32);
+
+
+
+
+persona2.saludar()
+
+persona1.saludar()
