@@ -393,6 +393,108 @@ despues crea un prototipo persona que se llama suludar que salude con los datos 
 
  */
 
+/**
+ * ****************************************************CLASES**************************************
+ * En JavaScript, las clases son una forma de definir objetos y estructurar la lógica de programación de manera más organizada y orientada a objetos. Las clases permiten crear plantillas reutilizables para la creación de objetos con propiedades y métodos comunes.
+
+Características de las Clases en JavaScript:
+Sintaxis más clara: Las clases proporcionan una sintaxis más clara y orientada a objetos que las funciones constructoras y los prototipos.
+
+Herencia: Las clases admiten la herencia, lo que permite que una clase hija herede propiedades y métodos de una clase padre.
+
+Encapsulamiento: Las clases pueden definir métodos y propiedades privadas utilizando convenciones de nombres (aunque JavaScript no tiene verdaderamente soporte nativo para propiedades privadas).
+
+Ejemplos de Clases en JavaScript:
+
+class Persona {
+  constructor(nombre, edad) {
+    this.nombre = nombre;
+    this.edad = edad;
+  }
+
+  saludar() {
+    console.log(`¡Hola! Soy ${this.nombre} y tengo ${this.edad} años.`);
+  }
+}
+
+let persona1 = new Persona('Juan', 30);
+let persona2 = new Persona('María', 25);
+
+persona1.saludar(); // Output: ¡Hola! Soy Juan y tengo 30 años.
+persona2.saludar(); // Output: ¡Hola! Soy María y tengo 25 años.
+
+Ejemplo 2: Herencia con Clases
+class Animal {
+  constructor(especie, color) {
+    this.especie = especie;
+    this.color = color;
+  }
+
+  sonido() {
+    console.log('Haciendo sonidos...');
+  }
+}
+
+class Perro extends Animal {
+  constructor(raza, color) {
+    super('Perro', color); // Llamada al constructor de la clase padre
+    this.raza = raza;
+  }
+
+  sonido() {
+    console.log('¡Guau!');
+  }
+}
+
+let perro = new Perro('Labrador', 'Marrón');
+perro.sonido(); // Output: ¡Guau!
+console.log(perro.especie); // Output: Perro
+console.log(perro.raza); // Output: Labrador
+console.log(perro.color); // Output: Marrón
+
+
+*Ejercicios de Clases en JavaScript:
+*crea una clase Animal que tenga especie, raza y colo y crea dentro del contructor un this.info que tenga la informacion del animal y crea un metodo verInfo fuera del contructor que muestre this.info
+
+* Ejercicio 1: Crear una Clase "Rectangulo"
+Crea una clase llamada "Rectangulo" que tenga propiedades de ancho y alto. Agrega métodos para calcular el área y el perímetro del rectángulo.
+
+* Ejercicio 2: Crear una Clase "Estudiante"
+Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grado. Agrega métodos para mostrar la información del estudiante y para promover al siguiente grado.
+
+
+
+ */
+
+/*----------------------------------------------------SPLIT------------------------------------------------------------- 
+
+Split - es un metodo divisor de letras, ya sea por separado , por comas o cualquier cosa que le pongamos y luego nos trae un array
+
+let cadena = 'manzana,naranja,uva';
+let frutas = cadena.split(',');
+
+console.log(frutas); // Output: ['manzana', 'naranja', 'uva']
+
+let texto = 'Hola mundo cómo estás';
+let palabras = texto.split(' ');
+console.log(palabras); // Output: ['Hola', 'mundo', 'cómo', 'estás']
+
+let palabra = 'JavaScript';
+let letras = palabra.split('');
+console.log(letras); // Output: ['J', 'a', 'v', 'a', 'S', 'c', 'r', 'i', 'p', 't']
+
+Ejercicios de split() en JavaScript:
+Ejercicio 1: Dividir una cadena por punto y coma
+Dada la cadena 'manzana;naranja;uva', utiliza el método split() para dividirla en un array donde cada elemento sea una fruta.
+
+Ejercicio 2: Dividir una cadena por líneas
+Dada la cadena multi-línea:
+JavaScript
+es
+genial
+Utiliza el método split() para dividirla en un array donde cada elemento sea una línea.
+
+*/
 
 /*
 ----------------------OPERADORES 8-------------------
@@ -606,49 +708,101 @@ let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del
 
 
 /**
- *  * Parámetros REST (...):
-El Parámetro REST (...) permite a una función aceptar un número variable de argumentos como un array. Esto significa que puedes pasar un número variable de argumentos a una función y acceder a ellos a través de un array dentro de la función.
-function sumar(...numeros) {
-  return numeros.reduce((total, num) => total + num, 0);
-}
-total es el numero acumulado y num es el resultado actual a mostrar, el cero solo es numero opcional del num en caso de que no tengamos un numero
-
-console.log(sumar(1, 2, 3, 4, 5)); // Output: 15
-console.log(sumar(10, 20));   
-
-*Operador Spread (...):
-El Operador Spread (...) se utiliza para descomponer un array en elementos individuales. También se puede utilizar para combinar múltiples elementos en un array.
-no hace falta fora=each ni reduce
-Ejemplo:
-javascript
-Copy code
-let numeros = [1, 2, 3];
-let masNumeros = [4, 5, 6];
-
-let todosLosNumeros = [...numeros, ...masNumeros];
-
-console.log(todosLosNumeros); // Output: [1, 2, 3, 4, 5, 6]
-En este ejemplo, el operador Spread se utiliza para combinar los arrays numeros y masNumeros en un único array todosLosNumeros.
-
-Ejercicios:
-
-REST...
-* Crea una función llamada maximo que acepte un array de números como argumento y devuelva el número máximo.
-hazlo con foREach y con reduce
-
-SPREAD
-* Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados.
 
  */
 
+/**
+ * ****************************************************CLASES**************************************
+ * En JavaScript, las clases son una forma de definir objetos y estructurar la lógica de programación de manera más organizada y orientada a objetos. Las clases permiten crear plantillas reutilizables para la creación de objetos con propiedades y métodos comunes.
 
+Características de las Clases en JavaScript:
+Sintaxis más clara: Las clases proporcionan una sintaxis más clara y orientada a objetos que las funciones constructoras y los prototipos.
 
+Herencia: Las clases admiten la herencia, lo que permite que una clase hija herede propiedades y métodos de una clase padre.
 
-function numeroMaximo(...numeros ) {
+Encapsulamiento: Las clases pueden definir métodos y propiedades privadas utilizando convenciones de nombres (aunque JavaScript no tiene verdaderamente soporte nativo para propiedades privadas).
 
- return numeros.reduce((total, num) => total + num)
+Ejemplos de Clases en JavaScript:
+
+class Persona {
+  constructor(nombre, edad) {
+    this.nombre = nombre;
+    this.edad = edad;
+  }
+
+  saludar() {
+    console.log(`¡Hola! Soy ${this.nombre} y tengo ${this.edad} años.`);
+  }
 }
 
-let numeroArray = [1,2,3,4,5,6]
+let persona1 = new Persona('Juan', 30);
+let persona2 = new Persona('María', 25);
 
-console.log(numeroMaximo(1,2,3,4,5,6))
+persona1.saludar(); // Output: ¡Hola! Soy Juan y tengo 30 años.
+persona2.saludar(); // Output: ¡Hola! Soy María y tengo 25 años.
+
+Ejemplo 2: Herencia con Clases
+class Animal {
+  constructor(especie, color) {
+    this.especie = especie;
+    this.color = color;
+  }
+
+  sonido() {
+    console.log('Haciendo sonidos...');
+  }
+}
+
+class Perro extends Animal {
+  constructor(raza, color) {
+    super('Perro', color); // Llamada al constructor de la clase padre
+    this.raza = raza;
+  }
+
+  sonido() {
+    console.log('¡Guau!');
+  }
+}
+
+let perro = new Perro('Labrador', 'Marrón');
+perro.sonido(); // Output: ¡Guau!
+console.log(perro.especie); // Output: Perro
+console.log(perro.raza); // Output: Labrador
+console.log(perro.color); // Output: Marrón
+
+
+*Ejercicios de Clases en JavaScript:
+*crea una clase Animal que tenga especie, raza y colo y crea dentro del contructor un this.info que tenga la informacion del animal y crea un metodo verInfo fuera del contructor que muestre this.info
+
+* Ejercicio 1: Crear una Clase "Rectangulo"
+Crea una clase llamada "Rectangulo" que tenga propiedades de ancho y alto. Agrega métodos para calcular el área y el perímetro del rectángulo.
+
+* Ejercicio 2: Crear una Clase "Estudiante"
+Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grado. Agrega métodos para mostrar la información del estudiante y para promover al siguiente grado.
+
+
+ */
+
+class Rectangulo{
+  constructor(ancho, alto){
+this.ancho = ancho;
+this.alto = alto;
+  }
+
+  calcularArea(){
+    return this.ancho * this.alto
+  }
+
+  calcularPerimetro(){
+    return 2 * (this.ancho + this.alto)
+  }
+
+
+}
+
+
+
+let calcul = new Rectangulo(20, 18);
+
+console.log(calcul.calcularArea())
+
