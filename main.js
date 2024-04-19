@@ -671,7 +671,7 @@ const tipodeSuscripciones = {
  */
 /*
 
--------------------------------EJERCICIOS GENERALES 3---------------------------------------------------------
+-------------------------------EJERCICIOS GENERALES 5---------------------------------------------------------
 
  *Funcion que salude a estudiantes
  *Muestra la multipliacion de 2 de forma vertical
@@ -704,6 +704,12 @@ let numeros = [1, 2, 3]; // saca el primer y el segundo numero
 Destructuración de Objetos:
 let { propiedad1, propiedad2 } = objeto;
 let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del
+
+* prototipo
+ crea una funcion persona y agregale dos parametros nombre y edad y llamalo con this y despues crea una nueva instancia de persona, se llamara persona1 
+despues crea un prototipo persona que se llama suludar que salude con los datos puestos en persona1
+recuerda los prototipos no pueden ser arrow funtion
+
 */
 
 
@@ -782,27 +788,4 @@ Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grad
 
 
  */
-
-class Rectangulo{
-  constructor(ancho, alto){
-this.ancho = ancho;
-this.alto = alto;
-  }
-
-  calcularArea(){
-    return this.ancho * this.alto
-  }
-
-  calcularPerimetro(){
-    return 2 * (this.ancho + this.alto)
-  }
-
-
-}
-
-
-
-let calcul = new Rectangulo(20, 18);
-
-console.log(calcul.calcularArea())
 
