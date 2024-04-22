@@ -394,7 +394,7 @@ despues crea un prototipo persona que se llama suludar que salude con los datos 
  */
 
 /**
- * ****************************************************CLASES**************************************
+ * ****************************************************CLASES 1**************************************
  * En JavaScript, las clases son una forma de definir objetos y estructurar la lógica de programación de manera más organizada y orientada a objetos. Las clases permiten crear plantillas reutilizables para la creación de objetos con propiedades y métodos comunes.
 
 Características de las Clases en JavaScript:
@@ -466,7 +466,7 @@ Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grad
 
  */
 
-/*----------------------------------------------------SPLIT------------------------------------------------------------- 
+/*----------------------------------------------------SPLIT 1------------------------------------------------------------- 
 
 Split - es un metodo divisor de letras, ya sea por separado , por comas o cualquier cosa que le pongamos y luego nos trae un array
 
@@ -718,74 +718,16 @@ recuerda los prototipos no pueden ser arrow funtion
  */
 
 /**
- * ****************************************************CLASES**************************************
- * En JavaScript, las clases son una forma de definir objetos y estructurar la lógica de programación de manera más organizada y orientada a objetos. Las clases permiten crear plantillas reutilizables para la creación de objetos con propiedades y métodos comunes.
 
-Características de las Clases en JavaScript:
-Sintaxis más clara: Las clases proporcionan una sintaxis más clara y orientada a objetos que las funciones constructoras y los prototipos.
-
-Herencia: Las clases admiten la herencia, lo que permite que una clase hija herede propiedades y métodos de una clase padre.
-
-Encapsulamiento: Las clases pueden definir métodos y propiedades privadas utilizando convenciones de nombres (aunque JavaScript no tiene verdaderamente soporte nativo para propiedades privadas).
-
-Ejemplos de Clases en JavaScript:
-
-class Persona {
-  constructor(nombre, edad) {
-    this.nombre = nombre;
-    this.edad = edad;
-  }
-
-  saludar() {
-    console.log(`¡Hola! Soy ${this.nombre} y tengo ${this.edad} años.`);
-  }
-}
-
-let persona1 = new Persona('Juan', 30);
-let persona2 = new Persona('María', 25);
-
-persona1.saludar(); // Output: ¡Hola! Soy Juan y tengo 30 años.
-persona2.saludar(); // Output: ¡Hola! Soy María y tengo 25 años.
-
-Ejemplo 2: Herencia con Clases
-class Animal {
-  constructor(especie, color) {
-    this.especie = especie;
-    this.color = color;
-  }
-
-  sonido() {
-    console.log('Haciendo sonidos...');
-  }
-}
-
-class Perro extends Animal {
-  constructor(raza, color) {
-    super('Perro', color); // Llamada al constructor de la clase padre
-    this.raza = raza;
-  }
-
-  sonido() {
-    console.log('¡Guau!');
-  }
-}
-
-let perro = new Perro('Labrador', 'Marrón');
-perro.sonido(); // Output: ¡Guau!
-console.log(perro.especie); // Output: Perro
-console.log(perro.raza); // Output: Labrador
-console.log(perro.color); // Output: Marrón
-
-
-*Ejercicios de Clases en JavaScript:
-*crea una clase Animal que tenga especie, raza y colo y crea dentro del contructor un this.info que tenga la informacion del animal y crea un metodo verInfo fuera del contructor que muestre this.info
-
-* Ejercicio 1: Crear una Clase "Rectangulo"
-Crea una clase llamada "Rectangulo" que tenga propiedades de ancho y alto. Agrega métodos para calcular el área y el perímetro del rectángulo.
-
-* Ejercicio 2: Crear una Clase "Estudiante"
-Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grado. Agrega métodos para mostrar la información del estudiante y para promover al siguiente grado.
 
 
  */
 
+
+
+let cadena1 = 'manzana;naranja;uva';
+let cadena = `JavaScript
+es
+genial`;
+
+console.log(cadena.split('\n'))
