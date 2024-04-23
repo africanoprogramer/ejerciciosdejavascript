@@ -394,7 +394,7 @@ despues crea un prototipo persona que se llama suludar que salude con los datos 
  */
 
 /**
- * ****************************************************CLASES 1**************************************
+ * ****************************************************CLASES 3**************************************
  * En JavaScript, las clases son una forma de definir objetos y estructurar la lógica de programación de manera más organizada y orientada a objetos. Las clases permiten crear plantillas reutilizables para la creación de objetos con propiedades y métodos comunes.
 
 Características de las Clases en JavaScript:
@@ -466,7 +466,7 @@ Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grad
 
  */
 
-/*----------------------------------------------------SPLIT 1------------------------------------------------------------- 
+/*----------------------------------------------------SPLIT 3------------------------------------------------------------- 
 
 Split - es un metodo divisor de letras, ya sea por separado , por comas o cualquier cosa que le pongamos y luego nos trae un array
 
@@ -671,14 +671,14 @@ const tipodeSuscripciones = {
  */
 /*
 
--------------------------------EJERCICIOS GENERALES 5---------------------------------------------------------
+-------------------------------EJERCICIOS GENERALES 6---------------------------------------------------------
 
- *Funcion que salude a estudiantes
- *Muestra la multipliacion de 2 de forma vertical
- *Despues que haz una funcion que pida la tabla de multiplicacion que quiere aplicar
- *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes".
- *Crea un array de nombres y que te traiga tos los nombre que empiencen con la letra A
- *quiero que diga que azul se encuentra, pero si eso otro color aunque el que este en array que diga que no se encuentra
+ *Funcion que salude a estudiantes 1
+ *Muestra la multipliacion de 2 de forma vertical 1
+ *Despues que haz una funcion que pida la tabla de multiplicacion que quiere aplicar 1
+ *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes". 1
+ *Crea un array de nombres y que te traiga tos los nombre que empiencen con la letra A 1
+ *quiero que diga que azul se encuentra, pero si eso otro color aunque el que este en array que diga que no se encuentra 1
  // map, filter, foreach, primero dublica el array y filtra los numeros mayores a 2, y con foreach console.log el numero filtrado
 map(), filter(), forEach(): Combinar métodos:
 let numeros = [1, 2, 3, 4, 5];
@@ -710,24 +710,26 @@ let persona = { nombre: "Juan", edad: 30 }; // saca la edad y el nombre del
 despues crea un prototipo persona que se llama suludar que salude con los datos puestos en persona1
 recuerda los prototipos no pueden ser arrow funtion
 
+
+*Ejercicios de Clases en JavaScript:
+*crea una clase Animal que tenga especie, raza y colo y crea dentro del contructor un this.info que tenga la informacion del animal y crea un metodo verInfo fuera del contructor que muestre this.info
+
+* Ejercicio 1: Crear una Clase "Rectangulo"
+Crea una clase llamada "Rectangulo" que tenga propiedades de ancho y alto. Agrega métodos para calcular el área y el perímetro del rectángulo.
+
+* Ejercicio 2: Crear una Clase "Estudiante"
+Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grado. Agrega métodos para mostrar la información del estudiante y para promover al siguiente grado.
+
+
+
 */
 
 
-/**
-
- */
 
 /**
-
-
 
  */
 
 
 
-let cadena1 = 'manzana;naranja;uva';
-let cadena = `JavaScript
-es
-genial`;
 
-console.log(cadena.split('\n'))
