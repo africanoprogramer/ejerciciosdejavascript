@@ -679,19 +679,19 @@ const tipodeSuscripciones = {
  *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes". 1
  *Crea un array de nombres y que te traiga tos los nombre que empiencen con la letra A 1
  *quiero que diga que azul se encuentra, pero si eso otro color aunque el que este en array que diga que no se encuentra 1
- // map, filter, foreach, primero dublica el array y filtra los numeros mayores a 2, y con foreach console.log el numero filtrado
+ // map, filter, foreach, primero dublica el array y filtra los numeros mayores a 2, y con foreach console.log el numero filtrado 1
 map(), filter(), forEach(): Combinar métodos:
 let numeros = [1, 2, 3, 4, 5];
- * filter(): Crea un nuevo arreglo con los elementos que pasan una condición especificada en una función. Traeme todos los numeros impares de este array
+ * filter(): Crea un nuevo arreglo con los elementos que pasan una condición especificada en una función. Traeme todos los numeros impares de este array 1
  * let numeros = [1, 2, 3, 4, 5];
- * slice(): Devuelve una copia superficial de una porción del arreglo en un nuevo arreglo objeto seleccionado desde inicio hasta fin (fin no incluido). El arreglo original no se modificará.
+ * slice(): Devuelve una copia superficial de una porción del arreglo en un nuevo arreglo objeto seleccionado desde inicio hasta fin (fin no incluido). El arreglo original no se modificará. 1
 javascript
 REST...
 * Crea una función llamada maximo que acepte un array de números como argumento y devuelva el número máximo.
-hazlo con foREach y con reduce
+hazlo con foREach y con reduce 1
 
 SPREAD
-* Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados.
+* Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados. 1
  * Try cacht, haz un ejercicio, es para capturar y manejar errores
   Supongamos que queremos dividir dos números ingresados por el usuario y mostrar el resultado, pero queremos manejar cualquier error que ocurra si el usuario ingresa un valor no válido o si la división por cero ocurre:
 
@@ -727,9 +727,29 @@ Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grad
 
 
 /**
+REST...
+* Crea una función llamada maximo que acepte un array de números como argumento y devuelva el número máximo.
+hazlo con foREach y con reduce 1
 
+SPREAD
+* Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados. 1
  */
 
 
 
 
+
+function unirArray(uno, dos) {
+
+return [...uno , ...dos]
+  
+}
+
+
+
+
+let numeros = [1, 2, 3, 4, 5];
+let numeros2 = [1, 2, 3, 4, 5];
+
+
+console.log(unirArray(numeros, numeros2))
