@@ -3,9 +3,13 @@
  * Fundamentos:
 
 Sintaxis básica: Variables, tipos de datos, operadores, estructuras de control (if, else, for, while, etc.)
-Funciones: Definición, tipos de funciones, parámetros, ámbito
-Objetos: Creación, propiedades, métodos
+Metodos string;
 Arreglos: Métodos de manipulación, iteración
+Objetos: Creación, propiedades, métodos
+Funciones: Definición, tipos de funciones, parámetros, ámbito
+
+
+
 Programación orientada a objetos:
 
 Clases: Creación, herencia, métodos
@@ -19,17 +23,210 @@ Manipulación del DOM: Seleccionar elementos, modificar estilos, agregar eventos
 */
 
 /**
- * 
- *  * -------------------VARIABLES 8-------------------
+ 
+A continuación te doy una lista de los conceptos básicos de programación en JavaScript: variables, tipos de datos, operadores, y estructuras de control (como if, else, for, while). También incluyo ejemplos y ejercicios para cada concepto.
 
-1.Create a variable called carName, assign the value Volvo to it. 5
-2.Create a variable called x, assign the value 50 to it. 5
-3. Muestra la suma de dos variables con getelmentby.... 5
-4.Create a variable called z, assign x + y to it, and display the result in an alert box. 5
-5.On one single line, declare three variables with the following names and values: 'ondo' 'edu' 30 5
+1. Variables
+Descripción: Se utilizan para almacenar información que se puede usar más tarde. JavaScript usa var, let, y const para declarar variables.
+Sintaxis:
+
+let nombre = "Juan";   // Variable que puede cambiar
+const edad = 25;       // Variable que no puede cambiar (constante)
+var pais = "España";   // Variable que puede cambiar (antiguo)
+
+Ejercicios:
+
+Declara una variable que almacene tu nombre y luego imprímela en la consola.
+Declara una constante para la edad y trata de cambiar su valor. ¿Qué sucede?
+Usa let para crear una variable que almacene el nombre de una ciudad, cambia su valor e imprímelo.
+
+
+2. Tipos de datos
+Descripción: En JavaScript, existen varios tipos de datos, incluidos:
+
+String: Cadenas de texto.
+Number: Números enteros o decimales.
+Boolean: Valores lógicos (true o false).
+Array: Listas de elementos.
+Object: Colección de propiedades clave-valor.
+Sintaxis:
+
+javascript
+
+let nombre = "María";     // String
+let edad = 30;            // Number
+let esMayor = true;       // Boolean
+let colores = ["rojo", "azul"];  // Array
+let persona = { nombre: "Pedro", edad: 40 };  // Object
+Ejercicios:
+
+Declara una variable de cada tipo de dato mencionado arriba.
+Usa typeof para verificar los tipos de las variables que creaste.
+Crea un objeto que represente un coche, con propiedades como marca, modelo, y año.
+
+
+**********************************************************************OPERADORES ARITMETICOS PLATZI + 2 *****************************************************************************************
+
+Explicación de cada concepto:
+
+1. Tipo entero y decimal
+Entero (int): Son números sin parte decimal, como 42.
+Decimal (float): Son números con parte decimal, como 3.14.
+En JavaScript, ambos son del tipo number.
+Ejercicios:
+
+Declara una variable edad con un número entero y otra altura con un número decimal. Muestra su tipo en consola.
+Suma un número entero con un decimal y muestra el resultado.
+2. Notación científica
+Permite representar números muy grandes o pequeños usando e (exponente), por ejemplo, 5e3 es igual a 5000 (5 × 10³).
+Ejercicios:
+
+Declara un número en notación científica que represente 1 millón y muéstralo en consola.
+Convierte el número 3.2e4 a su forma normal y compáralo con 32000.
+3. Infinitos y NaN
+Infinity: Representa valores infinitos, como cuando divides por 0.
+NaN (Not a Number): Se obtiene cuando una operación matemática no es válida, por ejemplo, 0 / 0 o "texto" * 2.
+Ejercicios:
+
+Intenta dividir 10 entre 0 y muestra el resultado en consola.
+Multiplica una cadena "hola" por 5 y verifica si el resultado es NaN con isNaN().
+Operaciones Aritméticas
+1. Suma, Resta, Multiplicación y División
+Son las operaciones matemáticas básicas: +, -, *, /.
+Ejercicios:
+
+Calcula (8 + 2) * 5 y muestra el resultado.
+Resta 15 menos 8, divídelo entre 2 y muestra el resultado.
+2. Módulo y Exponenciación
+Módulo (%): Devuelve el residuo de una división.
+Exponenciación (**): Eleva un número a una potencia.
+Ejercicios:
+
+Calcula 27 % 4 y explica qué significa el resultado.
+Eleva 5 al cubo (5 ** 3) y muestra el resultado.
+Precisión en JavaScript
+En operaciones con decimales, los resultados pueden no ser exactos debido a cómo los números se representan en memoria.
+toFixed(n) permite redondear a n decimales.
+Ejercicios:
+
+Suma 0.1 + 0.2, redondea el resultado a 2 decimales y compáralo con 0.3.
+Multiplica 0.7 * 100 y luego divide entre 100. ¿Es exactamente 0.7?
+Operaciones Avanzadas
+1. Raíz Cuadrada y Valor Absoluto
+Math.sqrt(n): Devuelve la raíz cuadrada de n.
+Math.abs(n): Devuelve el valor absoluto de n.
+Ejercicios:
+
+Calcula la raíz cuadrada de 81 y muestra el resultado.
+Obtén el valor absoluto de -23 y verifica que sea 23.
+2. Número Aleatorio
+Math.random(): Devuelve un número entre 0 y 1.
+Ejercicios:
+
+Genera un número aleatorio entre 1 y 10.
+Genera un número aleatorio entre 50 y 100 y redondéalo con Math.floor()
+
+
+
+
+3. Operadores + 2
+Descripción: Los operadores permiten realizar operaciones en variables y valores. Se dividen en:
+
+Aritméticos: +, -, *, /, % (suma, resta, multiplicación, división, resto).
+Asignación: =, +=, -=, *=, /= (asigna o actualiza valores).
+Comparación: ==, ===, !=, !==, >, <, >=, <= (comparan valores).
+Lógicos: &&, ||, ! (AND, OR, NOT).
+Sintaxis:
+
+javascript
+
+let x = 5;
+let y = 10;
+let suma = x + y;  // 15
+let esIgual = (x === y);  // false
+let esMayor = (y > x);  // true
+let resultadoLogico = (x < 10 && y > 5);  // true
+Ejercicios:
+
+
+4. Estructuras de control: if y else
+Descripción: if se usa para ejecutar código basado en una condición. else se usa si la condición es falsa.
+Sintaxis:
+javascript
+Copy code
+let edad = 18;
+if (edad >= 18) {
+    console.log("Es mayor de edad");
+} else {
+    console.log("Es menor de edad");
+}
+Ejercicios:
+Crea un programa que verifique si una persona es mayor o menor de edad.
+Escribe una función que acepte una nota y devuelva "Aprobado" si la nota es mayor o igual a 5.
+Crea un programa que determine si un número es par o impar.
+5. Estructura de control: for
+Descripción: El bucle for se usa para repetir una sección de código un número específico de veces.
+Sintaxis:
+javascript
+Copy code
+for (let i = 0; i < 5; i++) {
+    console.log(i);  // Imprime los números del 0 al 4
+}
+Ejercicios:
+Crea un bucle for que imprima los números del 1 al 10.
+Usa un bucle for para sumar todos los números del 1 al 100.
+Crea un bucle que imprima cada elemento de un arreglo.
+6. Estructura de control: while
+Descripción: El bucle while ejecuta código mientras una condición sea verdadera.
+Sintaxis:
+javascript
+Copy code
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+Ejercicios:
+Crea un bucle while que imprima los números del 1 al 5.
+Usa while para pedir un número al usuario y sigue pidiendo hasta que ingrese un número mayor a 10.
+Crea un bucle que sume los números del 1 al 50 usando while.
+7. Estructura de control: switch
+Descripción: switch evalúa una expresión y ejecuta el código correspondiente según el caso que coincida.
+Sintaxis:
+javascript
+Copy code
+let color = "rojo";
+switch (color) {
+    case "rojo":
+        console.log("El color es rojo");
+        break;
+    case "azul":
+        console.log("El color es azul");
+        break;
+    default:
+        console.log("No es rojo ni azul");
+}
+Ejercicios:
+Usa switch para crear un programa que devuelva el día de la semana basado en un número (1 = lunes, 2 = martes, etc.).
+Crea un programa que use switch para identificar si una fruta es "manzana", "plátano" o "naranja".
+Usa switch para devolver el nombre de un mes según el número del 1 al 12.
+8. Estructuras de control: do...while
+Descripción: Similar a while, pero la condición se evalúa después de ejecutar el código, garantizando que se ejecute al menos una vez.
+Sintaxis:
+javascript
+Copy code
+let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);
+Ejercicios:
+Crea un programa que pida números hasta que se ingrese uno mayor a 100.
+Usa do...while para contar del 10 al 1.
+Crea un programa que sume números hasta que se ingrese un número negativo.
 
 /**
- * ---------------------------------------VARIABLES 3---------------------------------------------------
+ * ---------------------------------------VARIABLES 4---------------------------------------------------
 
  *
  Declaración y asignación de variables:
@@ -53,6 +250,164 @@ Alcance de variables (scope):
 tiene que ser una funcion y el mensaje fuera de hola y rl consolog dentro con hola con nombre
 
 Enunciado: Declara una variable (mensaje) fuera de una función y otra variable con el mismo nombre dentro de la función. Dentro de la función, imprime el valor de la variable local (mensaje). Luego, fuera de la función, imprime el valor de la variable global (mensaje). Observa cómo cambia el alcance de las variables en cada caso.
+ */
+
+/**
+ ************************************METDOS DE STRING*************************************************
+
+ charAt()
+Descripción: Devuelve el carácter en la posición especificada de una cadena.
+Sintaxis: cadena.charAt(indice)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.charAt(4));  // Devuelve " "
+Ejercicios:
+Dado el string "JavaScript", devuelve el carácter en la posición 6.
+Dado el string "Frontend", usa charAt para devolver el último carácter.
+Dado el string "Cadena", utiliza un bucle para imprimir cada carácter.
+
+
+2. indexOf()
+Descripción: Devuelve la primera posición en la que se encuentra un valor dentro de una cadena. Si no lo encuentra, devuelve -1.
+Sintaxis: cadena.indexOf(subcadena)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.indexOf("M"));  // Devuelve 5
+Ejercicios:
+Encuentra la posición de la palabra "script" en "JavaScript es increíble".
+¿Qué devuelve indexOf("z") en la cadena "abcde"?
+Usa indexOf para contar cuántas veces aparece la letra "a" en "manzana".
+
+
+3. substring()
+Descripción: Extrae una porción de una cadena entre dos índices. El segundo índice es opcional.
+Sintaxis: cadena.substring(inicio, fin)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.substring(0, 4));  // Devuelve "Hola"
+Ejercicios:
+Extrae la palabra "Java" de la cadena "JavaScript".
+Crea una función que, dada una cadena, devuelva los primeros 5 caracteres.
+Extrae el dominio de un correo electrónico usando substring.
+
+
+4. toUpperCase()
+Descripción: Convierte una cadena a mayúsculas.
+Sintaxis: cadena.toUpperCase()
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.toUpperCase());  // Devuelve "HOLA MUNDO"
+Ejercicios:
+Convierte la cadena "hola mundo" a mayúsculas.
+Crea una función que reciba una frase y la devuelva en mayúsculas.
+Convierte todos los elementos de un arreglo de strings a mayúsculas.
+
+
+5. toLowerCase()
+Descripción: Convierte una cadena a minúsculas.
+Sintaxis: cadena.toLowerCase()
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.toLowerCase());  // Devuelve "hola mundo"
+Ejercicios:
+Convierte la cadena "HOLA MUNDO" a minúsculas.
+Crea una función que reciba una frase y la devuelva en minúsculas.
+Convierte todos los elementos de un arreglo de strings a minúsculas.
+
+
+6. trim()
+Descripción: Elimina los espacios en blanco de ambos extremos de una cadena.
+Sintaxis: cadena.trim()
+Ejemplo:
+javascript
+Copy code
+let texto = "   Hola Mundo   ";
+console.log(texto.trim());  // Devuelve "Hola Mundo"
+Ejercicios:
+Elimina los espacios iniciales y finales de la cadena " Programación ".
+Crea una función que elimine los espacios en blanco de una entrada de usuario.
+Usa trim para limpiar una cadena recibida de un formulario.
+
+
+7. replace()
+Descripción: Reemplaza parte de una cadena con otra.
+Sintaxis: cadena.replace(valorBuscado, valorReemplazo)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.replace("Mundo", "Amigos"));  // Devuelve "Hola Amigos"
+Ejercicios:
+Reemplaza la palabra "JavaScript" con "Python" en la frase "Aprendiendo JavaScript".
+Crea una función que reemplace todas las apariciones de la letra "a" en una cadena por "@."
+Reemplaza los números de una cadena con un asterisco usando replace.
+
+
+8. split()
+Descripción: Divide una cadena en un array de substrings utilizando un delimitador.
+Sintaxis: cadena.split(delimitador)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.split(" "));  // Devuelve ["Hola", "Mundo"]
+Ejercicios:
+Divide una frase en palabras usando los espacios como delimitador.
+Convierte una cadena "nombre1,nombre2,nombre3" en un arreglo de nombres.
+Crea una función que divida una cadena de números separados por comas y los sume.
+
+
+9. includes()
+Descripción: Verifica si una cadena contiene una subcadena específica. Devuelve true o false.
+Sintaxis: cadena.includes(subcadena)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.includes("Mundo"));  // Devuelve true
+Ejercicios:
+Verifica si la cadena "JavaScript es increíble" contiene la palabra "increíble".
+Crea una función que verifique si un correo contiene un "@".
+Dada una lista de palabras, verifica si alguna contiene la letra "e".
+
+
+10. startsWith()
+Descripción: Verifica si una cadena comienza con una subcadena específica.
+Sintaxis: cadena.startsWith(subcadena)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.startsWith("Hola"));  // Devuelve true
+Ejercicios:
+Verifica si el string "JavaScript" comienza con "Java".
+Crea una función que compruebe si una URL empieza con "https".
+Verifica si una lista de nombres empieza con la letra "A".
+
+
+11. endsWith()
+Descripción: Verifica si una cadena termina con una subcadena específica.
+Sintaxis: cadena.endsWith(subcadena)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.endsWith("Mundo"));  // Devuelve true
+Ejercicios:
+Verifica si la cadena "Hola mundo" termina con "mundo".
+Crea una función que compruebe si una URL termina en ".com".
+Verifica si una lista de palabras termina con la letra "s".
+
  */
 
 /**
@@ -371,8 +726,6 @@ SPREAD
 
  */
 
-
-
 /********************************************PROTOTIPOS 3********************************************
 
 En JavaScript, los prototipos son un mecanismo fundamental para la herencia y la compartición de propiedades y métodos entre objetos. Cada objeto en JavaScript tiene un prototipo, que es un objeto del cual hereda propiedades y métodos. Los prototipos permiten crear relaciones entre objetos de una manera eficiente y flexible.
@@ -630,7 +983,6 @@ Math.ceil(x): Redondea hacia arriba al entero más cercano.
 
  */
 
-
 /**
  * --------------------------------------OBJETOS 8------------------------------------------
  * 1.-Hacer un objeto de un auto; 3
@@ -673,12 +1025,12 @@ const tipodeSuscripciones = {
 
 -------------------------------EJERCICIOS GENERALES 6---------------------------------------------------------
 
- *Funcion que salude a estudiantes 1
- *Muestra la multipliacion de 2 de forma vertical 1
- *Despues que haz una funcion que pida la tabla de multiplicacion que quiere aplicar 1
- *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes". 1
- *Crea un array de nombres y que te traiga tos los nombre que empiencen con la letra A 1
- *quiero que diga que azul se encuentra, pero si eso otro color aunque el que este en array que diga que no se encuentra 1
+ *Funcion que salude a estudiantes 4
+ *Muestra la multipliacion de 2 de forma vertical 4
+ *Despues que haz una funcion que pida la tabla de multiplicacion que quiere aplicar 4
+ *Enunciado: Declara una variable (diaSemana) que represente un día de la semana (por ejemplo, "lunes", "martes", etc.). Utiliza una estructura de control switch para imprimir un mensaje diferente dependiendo del día. Por ejemplo, para "lunes", imprime "Hoy es lunes". 4
+ *Crea un array de nombres y que te traiga tos los nombre que empiencen con la letra A 3 // con filter, con indexOf, Chart, 
+ *quiero que diga que azul se encuentra, pero si eso otro color aunque el que este en array que diga que no se encuentra 2
  // map, filter, foreach, primero dublica el array y filtra los numeros mayores a 2, y con foreach console.log el numero filtrado 1
 map(), filter(), forEach(): Combinar métodos:
 let numeros = [1, 2, 3, 4, 5];
@@ -724,32 +1076,20 @@ Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grad
 
 */
 
-
-
 /**
-REST...
-* Crea una función llamada maximo que acepte un array de números como argumento y devuelva el número máximo.
-hazlo con foREach y con reduce 1
+ * 
 
-SPREAD
-* Define una función llamada unirArrays que tome dos o más arrays como argumentos y devuelva un único array que contenga todos los elementos de los arrays proporcionados. 1
+
+
+
+
+
+
+
+ * 
+
+
+
+
+
  */
-
-
-
-
-
-function unirArray(uno, dos) {
-
-return [...uno , ...dos]
-  
-}
-
-
-
-
-let numeros = [1, 2, 3, 4, 5];
-let numeros2 = [1, 2, 3, 4, 5];
-
-
-console.log(unirArray(numeros, numeros2))
