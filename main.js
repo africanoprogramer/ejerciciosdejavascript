@@ -65,7 +65,7 @@ Usa typeof para verificar los tipos de las variables que creaste.
 Crea un objeto que represente un coche, con propiedades como marca, modelo, y año.
 
 
-**********************************************************************OPERADORES ARITMETICOS PLATZI + 3 *****************************************************************************************
+**********************************************************************OPERADORES ARITMETICOS PLATZI + 4 *****************************************************************************************
 
 Explicación de cada concepto:
 
@@ -1079,91 +1079,16 @@ Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grad
 */
 
 /**
- * 
 
-Explicación de cada concepto:
-
-
-
-
-
-
-
-
-
-
-
-Crea un programa que determine si un número es par o impar.
-5. Estructura de control: for
-Descripción: El bucle for se usa para repetir una sección de código un número específico de veces.
-Sintaxis:
-javascript
-Copy code
-for (let i = 0; i < 5; i++) {
-    console.log(i);  // Imprime los números del 0 al 4
-}
 Ejercicios:
-Crea un bucle for que imprima los números del 1 al 10.
-Usa un bucle for para sumar todos los números del 1 al 100.
-Crea un bucle que imprima cada elemento de un arreglo.
-6. Estructura de control: while
-Descripción: El bucle while ejecuta código mientras una condición sea verdadera.
-Sintaxis:
-javascript
-Copy code
-let i = 0;
-while (i < 5) {
-    console.log(i);
-    i++;
-}
-Ejercicios:
-Crea un bucle while que imprima los números del 1 al 5.
-Usa while para pedir un número al usuario y sigue pidiendo hasta que ingrese un número mayor a 10.
-Crea un bucle que sume los números del 1 al 50 usando while.
-7. Estructura de control: switch
-Descripción: switch evalúa una expresión y ejecuta el código correspondiente según el caso que coincida.
-Sintaxis:
-javascript
-Copy code
-let color = "rojo";
-switch (color) {
-    case "rojo":
-        console.log("El color es rojo");
-        break;
-    case "azul":
-        console.log("El color es azul");
-        break;
-    default:
-        console.log("No es rojo ni azul");
-}
-Ejercicios:
-Usa switch para crear un programa que devuelva el día de la semana basado en un número (1 = lunes, 2 = martes, etc.).
-Crea un programa que use switch para identificar si una fruta es "manzana", "plátano" o "naranja".
-Usa switch para devolver el nombre de un mes según el número del 1 al 12.
-8. Estructuras de control: do...while
-Descripción: Similar a while, pero la condición se evalúa después de ejecutar el código, garantizando que se ejecute al menos una vez.
-Sintaxis:
-javascript
-Copy code
-let i = 0;
-do {
-    console.log(i);
-    i++;
-} while (i < 5);
-Ejercicios:
-Crea un programa que pida números hasta que se ingrese uno mayor a 100.
-Usa do...while para contar del 10 al 1.
-Crea un programa que sume números hasta que se ingrese un número negativo.
 
 
 
 
 
 
- * 
 
-
-
+//haciendo
 
 
 
@@ -1171,3 +1096,15 @@ Crea un programa que sume números hasta que se ingrese un número negativo.
 
 
  */
+
+let numeropar = [1, 2, 3, 4, 5, 6];
+
+for (let i = 0; i < numeropar.length; i++) {
+  const element = numeropar[i];
+
+  if (element % 2 === 0) {
+    console.log("Numero par");
+  } else {
+    console.log("numero impar");
+  }
+}
