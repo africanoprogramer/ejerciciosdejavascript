@@ -253,7 +253,7 @@ Enunciado: Declara una variable (mensaje) fuera de una función y otra variable 
  */
 
 /**
- ************************************METDOS DE STRING 1*************************************************
+ ************************************METDOS DE STRING 2*************************************************
 
  charAt()
 Descripción: Devuelve el carácter en la posición especificada de una cadena.
@@ -1015,6 +1015,9 @@ const tipodeSuscripciones = {
 
 -------------------------------EJERCICIOS GENERALES 6---------------------------------------------------------
 *con math random haz un ejercicio que me devuelva de 50 a 100
+*Dado el string "Cadena", utiliza un bucle para imprimir cada carácter con charAt.
+*Crea una función que reemplace todas las apariciones de la letra "a" en una cadena por "@." con replace
+*Reemplaza los números de una cadena con un asterisco usando replace con replace.
 *calcula el residuo de 27 entre 6
 *calcula la raiz cuadrada de 81
  *Funcion que salude a estudiantes 4
@@ -1078,18 +1081,18 @@ Ejercicios:
 
 
 
-8. split()
-Descripción: Divide una cadena en un array de substrings utilizando un delimitador.
-Sintaxis: cadena.split(delimitador)
-Ejemplo:
-javascript
-Copy code
-let texto = "Hola Mundo";
-console.log(texto.split(" "));  // Devuelve ["Hola", "Mundo"]
-Ejercicios:
-Divide una frase en palabras usando los espacios como delimitador.
-Convierte una cadena "nombre1,nombre2,nombre3" en un arreglo de nombres.
-Crea una función que divida una cadena de números separados por comas y los sume.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1101,35 +1104,39 @@ Crea una función que divida una cadena de números separados por comas y los su
 
 //haciendo
 
-
-7. replace()
-Descripción: Reemplaza parte de una cadena con otra.
-Sintaxis: cadena.replace(valorBuscado, valorReemplazo)
+9. includes()
+Descripción: Verifica si una cadena contiene una subcadena específica. Devuelve true o false.
+Sintaxis: cadena.includes(subcadena)
 Ejemplo:
 javascript
 Copy code
 let texto = "Hola Mundo";
-console.log(texto.replace("Mundo", "Amigos"));  // Devuelve "Hola Amigos"
+console.log(texto.includes("Mundo"));  // Devuelve true
 Ejercicios:
-Reemplaza la palabra "JavaScript" con "Python" en la frase "Aprendiendo JavaScript".
-Crea una función que reemplace todas las apariciones de la letra "a" en una cadena por "@."
-Reemplaza los números de una cadena con un asterisco usando replace.
+Verifica si la cadena "JavaScript es increíble" contiene la palabra "increíble".
+Crea una función que verifique si un correo contiene un "@".
+Dada una lista de palabras, verifica si alguna contiene la letra "e".
 
 
+3. substring()
+Descripción: Extrae una porción de una cadena entre dos índices. El segundo índice es opcional.
+Sintaxis: cadena.substring(inicio, fin)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.substring(0, 4));  // Devuelve "Hola"
+Ejercicios:
+Extrae la palabra "Java" de la cadena "JavaScript".
+Crea una función que, dada una cadena, devuelva los primeros 5 caracteres.
+Extrae el dominio de un correo electrónico usando substring.
 
  */
 
-function repl(palabra = "") {
-  for (let i = 0; i < palabra.length; i++) {
-    for (const letra of palabra) {
-      if (letra === "@") {
-        let rep = palabra.replace("@", "a");
+let cad = "JavaScript";
 
-        console.log(rep);
-      }
-    }
-  }
-  // return palabra;
+function sub(params = "") {
+  return params.substring(0, 5);
 }
 
-console.log(repl("m@l@bo"));
+console.log(sub(cad));
