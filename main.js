@@ -65,7 +65,7 @@ Usa typeof para verificar los tipos de las variables que creaste.
 Crea un objeto que represente un coche, con propiedades como marca, modelo, y año.
 
 
-**********************************************************************OPERADORES ARITMETICOS PLATZI + 4 *****************************************************************************************
+**********************************************************************OPERADORES ARITMETICOS PLATZI + 5 *****************************************************************************************
 
 Explicación de cada concepto:
 
@@ -226,7 +226,7 @@ Usa do...while para contar del 10 al 1.
 Crea un programa que sume números hasta que se ingrese un número negativo.
 
 /**
- * ---------------------------------------VARIABLES 4---------------------------------------------------
+ * ---------------------------------------VARIABLES 5---------------------------------------------------
 
  *
  Declaración y asignación de variables:
@@ -253,7 +253,7 @@ Enunciado: Declara una variable (mensaje) fuera de una función y otra variable 
  */
 
 /**
- ************************************METDOS DE STRING*************************************************
+ ************************************METDOS DE STRING 1*************************************************
 
  charAt()
 Descripción: Devuelve el carácter en la posición especificada de una cadena.
@@ -900,21 +900,11 @@ g) Con el operador correcto devuelve el valor direfente al que imprimes (true or
  */
 
 /**
- * --------------------------------------CONDICIONALES 8 -------------------------------
- * 1.- Hacer un ejercicio con if else si tiene menos de 18 anhos no puede votar y si tiene 18  puede votar y si tiene mas de 18 puede votar y conducir. 5
- * 2.- Has un ejemplo que al seleccionar el tipo de clima te muestra unas ecrituras, tengo hacer un select y coger una p desde el html 5
- * 3.- Hacer un ejercicio con switch 5
- * 4.- Hacer un ejercicio de tres jovenes que compran helados dependiendo la cantidad de dinero que tienen, el program les indica el . utilizando >= 5
- * 5.- hacer un ejercicio con while y dile que cuando el numero llegue a 31 deje de ejecutarse 5
- * 6.- haz lo mismo con el do while 5
- * 7.- haz un ejercicio con while qu cada numero que va llgando que cuente una historia de tu vida 5
- * 8.- intenta hacer lo mismo con un for o un while con una funcion pero la historia viene dentro de un objeto y cada vez qu llegue al numero  5
- */
 
 /**
  * ---------------------------------------ARRAYZ 8----------------------------------------
  * 1.-crea un array de tres frutas, anhade una fruta y se posiciona en la ultima posicion, otra fruta que se posicione en la primera posicion, cambia el valor del tercer array, elimina el primer array, elimina el ultimo array. 4
- * 2.- En eeste desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo. 4
+ * 2.- En este desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo. 4
  * 3.-
  */
 
@@ -1082,6 +1072,27 @@ Crea una clase llamada "Estudiante" que tenga propiedades de nombre, edad y grad
 
 Ejercicios:
 
+ *
+
+
+
+
+
+8. split()
+Descripción: Divide una cadena en un array de substrings utilizando un delimitador.
+Sintaxis: cadena.split(delimitador)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.split(" "));  // Devuelve ["Hola", "Mundo"]
+Ejercicios:
+Divide una frase en palabras usando los espacios como delimitador.
+Convierte una cadena "nombre1,nombre2,nombre3" en un arreglo de nombres.
+Crea una función que divida una cadena de números separados por comas y los sume.
+
+
+
 
 
 
@@ -1091,20 +1102,34 @@ Ejercicios:
 //haciendo
 
 
-
+7. replace()
+Descripción: Reemplaza parte de una cadena con otra.
+Sintaxis: cadena.replace(valorBuscado, valorReemplazo)
+Ejemplo:
+javascript
+Copy code
+let texto = "Hola Mundo";
+console.log(texto.replace("Mundo", "Amigos"));  // Devuelve "Hola Amigos"
+Ejercicios:
+Reemplaza la palabra "JavaScript" con "Python" en la frase "Aprendiendo JavaScript".
+Crea una función que reemplace todas las apariciones de la letra "a" en una cadena por "@."
+Reemplaza los números de una cadena con un asterisco usando replace.
 
 
 
  */
 
-let numeropar = [1, 2, 3, 4, 5, 6];
+function repl(palabra = "") {
+  for (let i = 0; i < palabra.length; i++) {
+    for (const letra of palabra) {
+      if (letra === "@") {
+        let rep = palabra.replace("@", "a");
 
-for (let i = 0; i < numeropar.length; i++) {
-  const element = numeropar[i];
-
-  if (element % 2 === 0) {
-    console.log("Numero par");
-  } else {
-    console.log("numero impar");
+        console.log(rep);
+      }
+    }
   }
+  // return palabra;
 }
+
+console.log(repl("m@l@bo"));
